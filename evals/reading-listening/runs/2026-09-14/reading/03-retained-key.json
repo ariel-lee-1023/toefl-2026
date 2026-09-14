@@ -1,0 +1,100 @@
+{
+  "provenance": "original practice",
+  "delivery": "text, interactive, key withheld",
+  "difficulty_estimate": "moderate",
+  "full_text": "Evaporation is the process in which liquid water changes into a gas. The process occurs when water molecules gain enough energy to escape from the liquid surface and enter the surrounding air. This change happens at the surface rather than throughout the liquid. Warmer conditions often increase evaporation because more molecules have sufficient energy to leave. Moving air also helps by carrying water vapor away from the surface, allowing additional molecules to escape.",
+  "word_count": 73,
+  "gaps": [
+    {
+      "gap": 1,
+      "full_word": "process",
+      "prefix": "pro",
+      "suffix": "cess",
+      "missing_count": 4,
+      "grammatical_form": "singular noun",
+      "contextual_clue": "The process named in the intact first sentence occurs when the described change happens."
+    },
+    {
+      "gap": 2,
+      "full_word": "when",
+      "prefix": "wh",
+      "suffix": "en",
+      "missing_count": 2,
+      "grammatical_form": "conjunction",
+      "contextual_clue": "Introduces the conditions under which evaporation occurs."
+    },
+    {
+      "gap": 3,
+      "full_word": "molecules",
+      "prefix": "mole",
+      "suffix": "cules",
+      "missing_count": 5,
+      "grammatical_form": "plural noun",
+      "contextual_clue": "Plural subject of gain, with water specifying the substance."
+    },
+    {
+      "gap": 4,
+      "full_word": "enough",
+      "prefix": "eno",
+      "suffix": "ugh",
+      "missing_count": 3,
+      "grammatical_form": "determiner",
+      "contextual_clue": "Enough energy expresses the required amount for escape."
+    },
+    {
+      "gap": 5,
+      "full_word": "to",
+      "prefix": "t",
+      "suffix": "o",
+      "missing_count": 1,
+      "grammatical_form": "infinitive marker",
+      "contextual_clue": "Introduces escape after energy."
+    },
+    {
+      "gap": 6,
+      "full_word": "from",
+      "prefix": "fr",
+      "suffix": "om",
+      "missing_count": 2,
+      "grammatical_form": "preposition",
+      "contextual_clue": "From marks the source left behind."
+    },
+    {
+      "gap": 7,
+      "full_word": "liquid",
+      "prefix": "liq",
+      "suffix": "uid",
+      "missing_count": 3,
+      "grammatical_form": "adjective",
+      "contextual_clue": "Describes the surface of the liquid water."
+    },
+    {
+      "gap": 8,
+      "full_word": "and",
+      "prefix": "a",
+      "suffix": "nd",
+      "missing_count": 2,
+      "grammatical_form": "coordinating conjunction",
+      "contextual_clue": "Joins escape and enter with the same subject."
+    },
+    {
+      "gap": 9,
+      "full_word": "the",
+      "prefix": "t",
+      "suffix": "he",
+      "missing_count": 2,
+      "grammatical_form": "definite article",
+      "contextual_clue": "Introduces surrounding air as the destination."
+    },
+    {
+      "gap": 10,
+      "full_word": "air",
+      "prefix": "a",
+      "suffix": "ir",
+      "missing_count": 2,
+      "grammatical_form": "mass noun",
+      "contextual_clue": "The surrounding medium into which water molecules escape; the final sentence also refers to moving air."
+    }
+  ],
+  "competitor_review": "Reviewed prefixes, suffix counts, grammar and paragraph context. Alternative completions such as molehills, enter, ore, are, age, and any fail the retained prefixes, the missing-letter count, or local meaning and syntax. Reconstructed text is coherent."
+}

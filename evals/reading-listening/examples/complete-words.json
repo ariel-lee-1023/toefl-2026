@@ -1,0 +1,78 @@
+{
+  "first_sentence": "Desert plants have several features that help them survive long dry seasons.",
+  "middle": "Their leaves often store water inside thick tissues until rain returns, while shallow roots absorb moisture before surface water evaporates.",
+  "last": "These roots form a network just below the ground, allowing the plant to use even a brief shower. The water held in the leaves can then support growth during periods without rain. Together, storage and rapid absorption help the plants cope with an unreliable supply of water.",
+  "masked": "Desert plants have several features that help them survive long dry seasons. Their lea___ often st___ water ins___ thick tis____ until ra__ returns, wh___ shallow ro___ absorb mois____ before sur____ water evapo_____. These roots form a network just below the ground, allowing the plant to use even a brief shower. The water held in the leaves can then support growth during periods without rain. Together, storage and rapid absorption help the plants cope with an unreliable supply of water.",
+  "key": [
+    {
+      "word": "leaves",
+      "prefix": "lea",
+      "suffix": "ves",
+      "missing": 3,
+      "position_after_first_sentence": 2
+    },
+    {
+      "word": "store",
+      "prefix": "st",
+      "suffix": "ore",
+      "missing": 3,
+      "position_after_first_sentence": 4
+    },
+    {
+      "word": "inside",
+      "prefix": "ins",
+      "suffix": "ide",
+      "missing": 3,
+      "position_after_first_sentence": 6
+    },
+    {
+      "word": "tissues",
+      "prefix": "tis",
+      "suffix": "sues",
+      "missing": 4,
+      "position_after_first_sentence": 8
+    },
+    {
+      "word": "rain",
+      "prefix": "ra",
+      "suffix": "in",
+      "missing": 2,
+      "position_after_first_sentence": 10
+    },
+    {
+      "word": "while",
+      "prefix": "wh",
+      "suffix": "ile",
+      "missing": 3,
+      "position_after_first_sentence": 12
+    },
+    {
+      "word": "roots",
+      "prefix": "ro",
+      "suffix": "ots",
+      "missing": 3,
+      "position_after_first_sentence": 14
+    },
+    {
+      "word": "moisture",
+      "prefix": "mois",
+      "suffix": "ture",
+      "missing": 4,
+      "position_after_first_sentence": 16
+    },
+    {
+      "word": "surface",
+      "prefix": "sur",
+      "suffix": "face",
+      "missing": 4,
+      "position_after_first_sentence": 18
+    },
+    {
+      "word": "evaporates",
+      "prefix": "evapo",
+      "suffix": "rates",
+      "missing": 5,
+      "position_after_first_sentence": 20
+    }
+  ]
+}

@@ -2,9 +2,8 @@
 **Format**: md (from pdf) | **Pages**: ~50 (pp. 197–247) | **Sections**: 2 chapters, 5 tasks | **Depth**: study
 **Authority**: This is the *only* first-party source in the library. Where it conflicts with any Magoosh reference file, **this file wins.**
 
-> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
-> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
-> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. A response that imitates their appearance scores as ETS's score-1 "telegraphic language (i.e., short and/or disconnected phrases and sentences)."
+> **Task-scoped format:** Drafted Email, Academic Discussion, and Interview answers use connected prose. Listen and Repeat reproduces the supplied sentence; Build a Sentence orders supplied words. This rule does not apply to Reading/Listening choices, missing letters, evidence spans, listening notes, coaching, or archive fields. Formatting alone does not establish an ETS score.
+
 
 
 ## Mental Model (read first)

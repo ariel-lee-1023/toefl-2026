@@ -1,0 +1,16 @@
+{
+  "provenance": "Original practice; local macOS speech synthesis, not ETS audio",
+  "source_sha256": "4b0b4b5252e5612c2e619070c001fba173a11f36e9a33b242e43636913fad6c2",
+  "audio_sha256": "d8b629c5a6be4592f82f5d3b4b34041c95ade1cf8b03c3eb8fc70fe2996e1da9",
+  "rate": 155,
+  "seconds": 21.724,
+  "segments": [
+    {
+      "speaker": "A",
+      "voice": "Samantha",
+      "text_sha256": "8e862bc15629b419cc87f4b0eeee268bb056f3fd6463230cbb18d0b6bae3c99b",
+      "seconds": 21.724
+    }
+  ],
+  "verification": "Input hashes, PCM format, duration, and non-silence checked. Acoustic correspondence requires playback or ASR review."
+}

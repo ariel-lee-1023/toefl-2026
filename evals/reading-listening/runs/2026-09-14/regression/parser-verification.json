@@ -1,0 +1,73 @@
+[
+  {
+    "file": "exports/write-an-email/joining-a-full-seminar.md",
+    "fields": [
+      "sessionTitle",
+      "prompt",
+      "polishedResponse",
+      "scoreExplained"
+    ],
+    "allRequiredFieldsRecognized": true,
+    "allFieldBodiesPreserved": true
+  },
+  {
+    "file": "exports/academic-discussion/libraries-lending-repair-tools.md",
+    "fields": [
+      "sessionTitle",
+      "prompt",
+      "polishedResponse",
+      "scoreExplained"
+    ],
+    "allRequiredFieldsRecognized": true,
+    "allFieldBodiesPreserved": true
+  },
+  {
+    "file": "exports/interview/reading-habits-demonstration.md",
+    "fields": [
+      "sessionTitle",
+      "q1_prompt",
+      "q2_prompt",
+      "q3_prompt",
+      "q4_prompt",
+      "q1_polishedResponse",
+      "q2_polishedResponse",
+      "q3_polishedResponse",
+      "q4_polishedResponse",
+      "scoreExplained"
+    ],
+    "allRequiredFieldsRecognized": true,
+    "allFieldBodiesPreserved": true
+  },
+  {
+    "file": "revised/exports/interview/reading-habits-demonstration.md",
+    "fields": [
+      "sessionTitle",
+      "q1_prompt",
+      "q2_prompt",
+      "q3_prompt",
+      "q4_prompt",
+      "q1_polishedResponse",
+      "q2_polishedResponse",
+      "q3_polishedResponse",
+      "q4_polishedResponse",
+      "scoreExplained"
+    ],
+    "allRequiredFieldsRecognized": true,
+    "allFieldBodiesPreserved": true
+  },
+  {
+    "file": "exports/semantic-consolidation-buffer/bus-stop-shade-trees.md",
+    "fields": [
+      "title",
+      "toeflDomain",
+      "tier",
+      "coreThesis",
+      "pillarA",
+      "pillarB",
+      "pillarC",
+      "lexicalBindings"
+    ],
+    "allRequiredFieldsRecognized": true,
+    "allFieldBodiesPreserved": true
+  }
+]

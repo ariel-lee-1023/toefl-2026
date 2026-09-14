@@ -2,16 +2,15 @@
 **Format**: md (from pdf) | **Pages**: ~15 | **Sections**: C–D–E–F skeleton + 5 phrase menus + practice method | **Depth**: study
 **Status**: third-party. Where it conflicts with `reference-ets-task-specs.md`, ETS wins. Unique value: a **time-allocated response shape** for the 45-second window, which ETS describes only as "use the full time."
 
-> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
-> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
-> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. A response that imitates their appearance scores as ETS's score-1 "telegraphic language (i.e., short and/or disconnected phrases and sentences)."
+> **Task-scoped format:** Drafted Email, Academic Discussion, and Interview answers use connected prose. Listen and Repeat reproduces the supplied sentence; Build a Sentence orders supplied words. This rule does not apply to Reading/Listening choices, missing letters, evidence spans, listening notes, coaching, or archive fields. Formatting alone does not establish an ETS score.
+
 
 
 ## Mental Model (read first)
 The binding constraint is **zero preparation time**. The moment the interviewer stops speaking, you start — so any second spent deciding *how to begin* is a second permanently lost from elaboration. The skeleton exists to make the opening reflexive so your working memory goes entirely to *what to say*. The guide is explicit about the tradeoff it creates: reuse "Honestly, I'd say…" on all four questions and you "run the risk of sounding robotic and too rehearsed" — which collides directly with ETS's rule that memorized-sounding language scores lower. **Learn the shape; rotate the phrasing.**
 
 ## Output format — HARD CONSTRAINT
-This task is **spoken**, so the risk isn't in your delivery — it's in how a sample answer gets *written down* during practice or coaching. A model answer must be transcribed as **continuous spoken prose**: no bullets, no headings, no bold labels, no `Slot 1:` annotations inside the answer itself. The C–D–E–F slots are a planning device, never a visible structure. Writing a practice answer as a bulleted list trains exactly the wrong thing, because ETS's score-4 speaking band is elaborated content that **"may lack effective sentence-level connectors"** — the connectives *are* the difference between a 4 and a 5, and a bulleted draft has none to practice.
+This task is **spoken**, so the risk isn't in your delivery — it's in how a sample answer gets *written down* during practice or coaching. A model answer must be transcribed as **continuous spoken prose**: no bullets, no headings, no bold labels, no `Slot 1:` annotations inside the answer itself. The C–D–E–F slots are a planning device, never a visible structure. Write out connected sentences when modelling a spoken answer so the learner can practise how claims and examples connect. This is a teaching convention, not a claim that written formatting determines a Speaking score. Assess actual spoken delivery only when audio is available; Reading/Listening notes and choices are outside this rule.
 
 ## The Universal Response Skeleton — C–D–E–F (45 seconds, ~110 words)
 | Slot | ~Time | Job |

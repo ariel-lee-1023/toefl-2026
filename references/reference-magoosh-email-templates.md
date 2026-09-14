@@ -2,16 +2,15 @@
 **Format**: md (from pdf) | **Pages**: ~19 | **Sections**: skeleton + 5 task types + practice method | **Depth**: study
 **Status**: third-party. Where it conflicts with `reference-ets-task-specs.md`, ETS wins. Its unique value is (a) the **7-minute clock**, which ETS never states, and (b) a taxonomy of **speech acts** the ETS rubric scores under "formulation of actions such as requests, refusals, criticisms."
 
-> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
-> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
-> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. A response that imitates their appearance scores as ETS's score-1 "telegraphic language (i.e., short and/or disconnected phrases and sentences)."
+> **Task-scoped format:** Drafted Email, Academic Discussion, and Interview answers use connected prose. Listen and Repeat reproduces the supplied sentence; Build a Sentence orders supplied words. This rule does not apply to Reading/Listening choices, missing letters, evidence spans, listening notes, coaching, or archive fields. Formatting alone does not establish an ETS score.
+
 
 
 ## Mental Model (read first)
 Magoosh's own framing: templates are **scaffolding, not a script** — they supply *how to say it*, never *what to say*. The guide is unusually candid that its own phrases are a liability at the top: "if thousands of students are reading this same guide, and everyone always uses [the same line], those emails start to sound alike," and the score-5 rubric demands *idiomatic* word choice, which "means language that sounds like you, not like a template." **Read this file as a map of the required speech acts, then generate your own realizations of them.** The task-type taxonomy is durable; the specific phrases are disposable and should be treated as such.
 
 ## Output format — HARD CONSTRAINTS
-Plain prose typed into an email box. **Do** include a greeting and a sign-off (unlike the Discussion task, this one is a message to a person, and register is criterion 3). **Never** include a markdown heading, bullet points, a numbered list, bold/italic markup, or `Label:` lines — even when the prompt's three bullets tempt you to mirror them as three bullets. The prompt's bullets are **your outline, not your format**: each becomes a short paragraph of ~2 connected sentences. A bulleted email reads as a form submission and forfeits the "well connected, coherent, and easy to follow" criterion; ETS's score-1 band explicitly names telegraphic, disconnected phrases.
+Plain prose typed into an email box. **Do** include a greeting and a sign-off (unlike the Discussion task, this one is a message to a person, and register is criterion 3). **Never** include a markdown heading, bullet points, a numbered list, bold/italic markup, or `Label:` lines — even when the prompt's three bullets tempt you to mirror them as three bullets. The prompt's bullets are **your outline, not your format**: each becomes a short paragraph of ~2 connected sentences. This is a drafting convention for composed Email answers. Assess coherence, development, and register in the actual language; bullet symbols alone do not establish a rubric score. Reading/Listening notes and choices are outside this convention.
 
 ## Timing and length (Magoosh's numbers, not ETS's)
 - **7 minutes total**: ~1 min read + plan · 4–5 min write · 1–2 min proofread.

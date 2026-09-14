@@ -1,6 +1,8 @@
-# toefl-2026-writing-speaking
+# TOEFL 2026 Coach: Reading, Listening, Writing & Speaking
 
-An agent skill for the **Writing** and **Speaking** sections of the 2026 TOEFL iBT — a router plus six on-demand reference files, aimed at C2-level performance. Beyond its fixed-schema features (task templates, Listen and Repeat scoring, the Active Cognitive Buffer note-taking pipeline), it also runs a **Flexible Mode** for requests that don't fit a template — personalized template design, practice-path planning from a real score, or anything requiring synthesis across the library rather than execution of one fixed procedure.
+An agent skill for guided comprehension, precise meaning matching, listening notes and retrieval, and original practice, alongside the existing Writing/Speaking coaching and structured study-note workflow. The local folder and skill identifier are `toefl-2026`. The GitHub repository remains at its existing URL.
+
+The default learning loop is one short task, your attempt, feedback, then a variation. You can start without wrong answers, a score report, or a personal profile. Ask for direct explanations, worked demonstrations, a batch, or the full answer whenever you prefer. Error analysis is available when requested or when reviewing an attempt; it is not the entry point to every session.
 
 ## Install
 
@@ -8,104 +10,88 @@ Clone into a skills root your agent reads (Claude Code shown):
 
 ```bash
 git clone https://github.com/ariel-lee-1023/toefl-2026-writing-speaking.git \
-  ~/.claude/skills/toefl-2026-writing-speaking
+  ~/.claude/skills/toefl-2026
 ```
 
 Other roots: `~/.copilot/skills/`, `~/.agents/skills/`, `.claude/skills/`, `.agents/skills/`.
 
-## Layout
+## What you can practise
 
-```
-toefl-2026-writing-speaking/
-├── SKILL.md
-├── references/                  # read-only rubric/template library
-├── polished-5-5-responses/      # personal polished drafts, for review & teaching
-│   ├── incoming/                # upload here, GitHub Action auto-archives
-│   │   ├── write-an-email/
-│   │   ├── academic-discussion/
-│   │   ├── listen-and-repeat/
-│   │   └── interview/
-│   ├── write-an-email/
-│   ├── academic-discussion/
-│   ├── listen-and-repeat/
-│   └── interview/
-├── semantic-consolidation-buffer/  # Active Re-Encoding Pipeline for raw input → TOEFL-ready notes
-│   ├── incoming/                # upload here, GitHub Action auto-archives
-│   ├── content/                 # archived episodes, in upload order
-│   └── _template.md
-└── .github/
-    ├── workflows/archive-incoming.yml         # archives polished-5-5-responses/incoming/
-    ├── workflows/archive-semantic-consolidation-buffer.yml    # archives semantic-consolidation-buffer/incoming/
-    ├── scripts/archive-incoming.js             # reformats + archives polished-5-5-responses uploads
-    └── scripts/archive-semantic-consolidation-buffer.js       # reformats + archives semantic-consolidation-buffer uploads
-```
-
-| File | Loaded | Contents |
+| Area | Capabilities | Example request |
 |---|---|---|
-| `SKILL.md` | always | Router, operating stance, cross-source topic index |
-| `references/reference-ets-task-specs.md` | on demand | Official Guide Ch. 4–5 — task mechanics, 0–5 scoring guides, rated samples |
-| `references/reference-ets-cefr-descriptors.md` | on demand | Section scores 1–6 mapped to CEFR A1–C2; what C2 requires |
-| `references/reference-magoosh-email-templates.md` | on demand | Write an Email — 7-min plan, register ladder, 5 speech-act types |
-| `references/reference-magoosh-discussion-templates.md` | on demand | Academic Discussion — 10-min plan, engaging both student posts |
-| `references/reference-magoosh-interview-templates.md` | on demand | Take an Interview — the C–D–E–F 45-second shape |
-| `references/reference-course-listen-repeat-lessons.md` | on demand | Listen and Repeat — the 7-sentence set map, chunking for memory, compressed function words and word endings |
-| `polished-5-5-responses/` | on demand | Personal polished-response archive, kept for pre-exam review and post-exam teaching material. Upload to `incoming/<task-type>/` and a GitHub Action reformats + archives it automatically — no server, no AI/API calls. See its own [README](polished-5-5-responses/README.md) and [`incoming/README.md`](polished-5-5-responses/incoming/README.md) for the workflow. |
-| `semantic-consolidation-buffer/` | on demand | The Neuro-Cognitive Architecture of Active Re-Encoding: forces raw input (a lecture, a recording, a reading — any source language) through a fixed schema (Semantic Anchoring → Prefrontal Abstraction → Associative Evidence Mapping → Lexical Binding) that produces a structured, TOEFL-ready L2 semantic map instead of a transcript — comprehension material for reading, listening, writing, and speaking alike, not a spoken-output drill. Upload to `incoming/` and the same kind of GitHub Action reformats + archives it automatically. See its own [README](semantic-consolidation-buffer/README.md) and [`incoming/README.md`](semantic-consolidation-buffer/incoming/README.md). |
+| Reading | Complete the Words, Read in Daily Life, Read an Academic Passage; guided rereading and evidence matching | “I have done every question. Help me study this passage again.” |
+| Meaning matching | Paraphrases, reference links, conditions, scope, inference, example and paragraph functions | “Train me to spot the smallest meaning change in a paraphrase.” |
+| Listening | Choose a Response, Conversation, Announcement, Academic Talk; intent, details, organization, and supported inference | “Give me a short announcement, then ask me what to do next.” |
+| Listening notes | Selection, relationship labels, final decisions, cue retrieval, and timed choice comparison | “Here are my notes. I ran out of time searching them.” |
+| Original practice | Existing material with new questions, new original material, or focused micro-exercises | “Make five new questions about this passage. Put the key in a separate file.” |
+| Writing | Build a Sentence, Write an Email, Academic Discussion | “Help me write a clear, well-supported discussion response.” |
+| Speaking | Listen and Repeat, Take an Interview | “Help me chunk this Listen and Repeat sentence.” |
+| General study notes | Existing Active Cognitive Buffer and Flexible Mode | “Re-encode this lecture into a structured study note.” |
 
-Only `SKILL.md` occupies context by default; reference files load when the router points at them.
+Familiar material remains useful for learning; success on it is not an independent proficiency measurement. Generated material is labelled original practice. Format-aligned tasks and broader skill exercises are distinguished, and difficulty labels are design estimates. Generated accuracy is never converted into an official section score.
 
-## Using this with a retrieval host (Gemini Gem, NotebookLM, ChatGPT Project)
+## Library and routing
 
-**Important.** Agent hosts like Claude Code load `SKILL.md` into context on every turn, so its rules always fire. Retrieval hosts do not: uploading the repo as a ZIP into a Gem's *Knowledge* turns it into a **RAG corpus**, and only chunks semantically similar to your question get retrieved. Ask "write a discussion post about urban communities" and the retriever returns the content menus — a paragraph about output formatting has almost no lexical overlap with your query and may never be retrieved at all.
+Only [SKILL.md](SKILL.md) is the entry point. Load the reference needed for the requested activity, not every file. A transcript does not automatically trigger the Buffer, and listening comprehension does not automatically trigger Speaking reproduction.
 
-Every reference file therefore repeats the format rule at the top, so any retrieved chunk carries it, and each task file contains a fenced `MODEL RESPONSE` to imitate. That raises the hit rate but cannot guarantee it.
+| Reference | Purpose |
+|---|---|
+| [ETS Reading/Listening specs](references/reference-ets-reading-listening-specs.md) | Verified task families, presentation, timing and scoring limits |
+| [Reading course](references/reference-course-reading.md) | Exam-focused reading and slower learning-focused rereading |
+| [Listening course](references/reference-course-listening.md) | Intention, relationships, academic organization and review |
+| [Listening note-taking](references/reference-listening-note-taking.md) | Recording and finding useful cues |
+| [Comprehension coaching](references/reference-comprehension-coaching.md) | Graduated help, meaning matching and optional error analysis |
+| [Practice generation](references/reference-practice-generation.md) | Three modes, task constraints and question-quality checks |
+| [Audio delivery](references/reference-audio-delivery.md) | Host discovery, playable local adapter and text-only fallback |
+| [ETS Writing/Speaking task specs](references/reference-ets-task-specs.md) | Existing task mechanics, rubrics and rated examples |
+| [ETS Writing/Speaking descriptors](references/reference-ets-cefr-descriptors.md) | Existing section performance descriptors |
+| [Email](references/reference-magoosh-email-templates.md), [Discussion](references/reference-magoosh-discussion-templates.md), [Interview](references/reference-magoosh-interview-templates.md) | Existing Magoosh teaching frameworks |
+| [Listen and Repeat lessons](references/reference-course-listen-repeat-lessons.md), [workflow](references/reference-listen-repeat-workflow.md) | Existing Speaking reproduction coaching |
+| [Buffer workflow](references/reference-buffer-workflow.md), [archive formats](references/reference-response-archive.md) | Existing study-note and Writing/Speaking schemas |
 
-**For reliable results on a retrieval host, paste this into the system-instruction box** (Gem Instructions / Project Instructions) rather than relying on the uploaded files alone:
+## Audio boundaries
 
+Discover host capabilities before promising playable listening. The supported [macOS adapter](references/reference-audio-delivery.md) uses installed English voices through `say` and `afconvert`, with Python 3. It renders a WAV locally without an account or paid service and checks input hashes, duration, format, and non-silence. Host-native audio generation is also usable when available.
+
+A renderer success does not verify every spoken word. Inspect playback or ASR when available; if neither is available, disclose that acoustic correspondence review is pending. Keep the script, key, and explanatory cues out of an independent first attempt. The host may allow replay, so assisted attempts must be labelled honestly. The adapter does not provide ASR, a test timer, replay restrictions, or an adaptive test interface.
+
+When playable audio cannot be generated, use a clearly labelled script-based exercise or guide practice with an accessible learner recording. A script alone is not completed listening practice. Transcripts cannot establish pronunciation, stress, actual audibility, or timestamps. Missing source audio is never reconstructed and presented as the original.
+
+## Optional records and existing archives
+
+[Practice records](practice-records/README.md) are lightweight and opt-in. They capture activity, provenance, familiarity, assistance, the actual attempt, feedback and a next target. Record notes and timing only when available. Local project records go under `exports/practice-records/`; they do not enter the existing archivers.
+
+Existing Email, Discussion, Interview and Listen and Repeat archive fields remain unchanged. The project uses `exports/<task-type>/` for local deliverables. GitHub workflows process uploads to `polished-5-5-responses/incoming/<task-type>/`, and the [Buffer workflow](semantic-consolidation-buffer/README.md) processes `semantic-consolidation-buffer/incoming/`. Saving an export does not run these workflows. Existing locally deleted archive files are not recreated by this extension.
+
+## Retrieval hosts
+
+For a Gem, NotebookLM notebook, or ChatGPT Project, add the router rules to the host's instructions as well as uploading references. Retrieval can omit important routing context. A compact instruction block:
+
+```text
+Route by the learner's activity. Explicit comprehension, listening notes, new
+practice, and error analysis take precedence over raw-input study-note routing.
+Default to one short exercise, wait for the attempt, then give feedback and a
+variation. Honor direct-answer and batch requests. Keep question sets and keys
+separate; withhold listening transcripts and answer-specific cues before a first
+attempt unless scaffolding is requested. Discover audio capabilities; scripts
+alone are text-based work. Draft Email, Discussion and Interview answers in
+connected prose. Choices, missing letters, evidence spans and exam notes may be
+short. Records are optional for Reading/Listening. Use ETS for official rules,
+the attributed courses for methods, and label original coaching designs.
 ```
-When writing any TOEFL response, output continuous prose only. Never use a title,
-heading, bullet point, numbered list, bold or italic markup, or "Label:" line inside
-a response. Enumerate in prose with First / Second / Finally. An email includes a
-greeting and sign-off; a discussion post includes neither. Every claim needs a
-concrete instance, not just a reason. Consult the uploaded library for rubrics,
-task mechanics, and phrasing.
-```
 
-## Covers
+## Sources and evidence limits
 
-**Writing** — Build a Sentence · Write an Email · Write for an Academic Discussion
-**Speaking** — Listen and Repeat · Take an Interview
+The original library draws on ETS Official Guide Chapters 4–5, ETS Writing/Speaking performance descriptors, three Magoosh template guides, and a third-party Listen and Repeat lesson series. This extension adds current ETS Reading/Listening pages, the 2026 blueprint and sample overview, the supplied Reading and Listening course transcripts, and the supplied 2026-09-14 note-taking guide. Each new reference records provenance, verification date, and coverage limits. The course documents contain missing slides, omitted choices, transcription errors, and unavailable audio. This release distils their methods rather than publishing the full transcripts.
 
-Not covered: Reading, Listening, registration or scoring-service logistics.
-
-## Pairs well with: Cognitive-Neuroscience-Expert
-
-[Cognitive-Neuroscience-Expert](https://github.com/ariel-lee-1023/Cognitive-Neuroscience-Expert.git) is a companion skill — a mechanism-oriented cognitive neuroscience knowledge library (attention, memory systems, PFC/executive function, language, model-based cognitive neuroscience). It has no built-in diagnostic feature of its own; the pairing works by pointing its mechanism knowledge at material **this** repo already has archived about you:
-
-1. Load both skills in the same session (or point a retrieval host at both repos).
-2. Ask it to analyze your own already-archived material here — your `semantic-consolidation-buffer/content/` notes (domain distribution, recurring Lexical Binding gaps) and/or your `polished-5-5-responses/*/` archive (recurring `My Diagnosis` errors across drafts) — through its mechanism frameworks (e.g. working-memory load, attentional control, executive-function bottlenecks).
-3. That analysis is your **cognitive baseline profile** — an archive-derived read, not a clinical or psychometric assessment, and it should say so and name which files it drew from.
-4. Feed that profile into a Flexible Mode request here, e.g. "design three academic writing templates based on my cognitive profile" or "map a practice path from my latest score." Flexible Mode (see `SKILL.md`) will use it as the personalization input instead of asking you to state your profile from scratch.
-
-This only works if the profiling step is grounded in real archived material — neither skill should invent a profile from tone or guess representative weaknesses.
-
-## Sources and attribution
-
-Distilled from six sources. These files are **original synthesis** — structure, frameworks, decision rules, and worked examples reconstructed in new wording — not reproductions. Short quoted fragments are attributed inline. Consult the originals for the authoritative text:
-
-- *The Official Guide to the TOEFL iBT® Test, Pocket Edition*, Chapters 4–5 — **ETS**
-- Writing & Speaking Section Performance Descriptors (Appendix) — **ETS**
-- Write an Email / Academic Discussion / Interview template guides — **Magoosh**
-- Listen and Repeat lesson series (task rules · chunking · scoring and common errors) — third-party TOEFL prep course
-
-Where the third-party guides conflict with ETS on any point of fact, the skill treats **ETS as authoritative**.
+ETS defines official mechanics. Course pacing and note routines are adjustable suggestions. The note guide's past learner difficulties are historical reports, not assumptions about every user. Cognitive-science language supplies possible explanations, not clinical diagnoses or evidence that this coaching protocol was experimentally validated. An optional companion [Cognitive-Neuroscience-Expert](https://github.com/ariel-lee-1023/Cognitive-Neuroscience-Expert) analysis must use actual supplied work and qualify its conclusions; it is not required for practice.
 
 TOEFL and TOEFL iBT are registered trademarks of ETS. This project is unaffiliated with and unendorsed by ETS or Magoosh.
 
+## Examples and validation
+
+See [worked interactions](evals/reading-listening/worked-interactions.md), [original question set](evals/reading-listening/examples/questions.md), [separate reviewed key](evals/reading-listening/examples/answer-key.md), and [evaluation report](evals/reading-listening/REPORT.md). Illustrative learner replies in demonstrations are not real learner results. Behavioral evaluations inspect actual outputs; structural checks alone do not establish coaching quality or psychometric validity.
+
 ## Built with
 
-[Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs) — multi-source distillation into a cross-referenced knowledge library.
-
-## License
-
-[MIT](LICENSE) © 2026 Ariel Lee. This covers the skill files, templates, and automation script in this repository — it does not extend any rights to the third-party TOEFL/ETS/Magoosh source material referenced above (see **Sources and attribution**).
+[Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs): multi-source distillation into a cross-referenced knowledge library.

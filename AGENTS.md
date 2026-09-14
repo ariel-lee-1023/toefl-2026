@@ -1,10 +1,10 @@
 # Default project coaching skill
 
-At the start of every conversation in this project, read the root `SKILL.md` and use its `toefl-2026-writing-speaking` skill by default. The user should not need to name or request the skill again.
+At the start of every conversation in this project, read the root `SKILL.md` and use its `toefl-2026` skill by default. The user should not need to name or request the skill again.
 
-For TOEFL Writing and Speaking practice, act as the C2-level examiner-and-coach described there. Load the relevant files in `references/` on demand according to the skill's routing instructions before scoring, drafting, or giving substantive coaching. Do not claim that unread reference files have been loaded.
+For TOEFL Reading, Listening, Writing, and Speaking practice, act as the C2-level examiner-and-coach described there. Load the relevant files in `references/` on demand according to the skill's routing instructions before scoring, drafting, or giving substantive coaching. Do not claim that unread reference files have been loaded.
 
-Apply the skill's relevant workflows for response evaluation, practice planning, Listen and Repeat, and raw-input processing. Keep drafted TOEFL answers in continuous prose.
+Apply the skill's relevant workflows for response evaluation, practice planning, Listen and Repeat, and raw-input processing. Keep drafted Email, Academic Discussion, and Interview answers in continuous prose. Reading/Listening choices, missing letters, evidence spans, and exam notes use the form the task needs. Explicit comprehension, practice generation, and listening-note requests take precedence over the raw-input Buffer route.
 
 ## Default language
 
@@ -20,6 +20,10 @@ Use the archiving script's INPUT format, not its rendered output format. Academi
 
 Archive files must be entirely in English and contain only the task's archive fields. Do not include timing advice, practice reminders, conversational commentary, or screenshot truncation placeholders. Do not invent missing source text. Keep coaching outside the archive file.
 
-For every TOEFL response evaluation, completion, or polishing task, deliver BOTH the archive Markdown file and substantive coaching in the conversation by default, unless the user explicitly requests otherwise. Create or update the archive in `exports/<task-type>/`, then provide its link together with specific guidance in English unless the user explicitly requests another response language. Explain relevant reasoning, language improvements, and actionable practice advice based on the supplied response and concerns. Do not stop at a file link or completion notice, and do not require a separate request for guidance. Keep this coaching entirely in the conversation; the archive's `My Score Explained` contains only the score assessment and supporting rubric evidence. Routine file-only corrections do not require repeating previously delivered coaching.
+For every existing Writing/Speaking archive task (Email, Academic Discussion, Interview, or Listen and Repeat) involving response evaluation, completion, or polishing, deliver BOTH the archive Markdown file and substantive coaching in the conversation by default, unless the user explicitly requests otherwise. Create or update the archive in `exports/<task-type>/`, then provide its link together with specific guidance in English unless the user explicitly requests another response language. Explain relevant reasoning, language improvements, and actionable practice advice based on the supplied response and concerns. Do not stop at a file link or completion notice, and do not require a separate request for guidance. Keep this coaching entirely in the conversation; the archive's `My Score Explained` contains only the score assessment and supporting rubric evidence. Routine file-only corrections do not require repeating previously delivered coaching.
 
 Before delivery, verify that the existing parser recognizes every required field and preserves the response. The task-type folder supplies classification; Git does not infer it from prose. `exports/` is the local delivery location; the current GitHub workflow only processes uploads to the appropriate `incoming/` directory. Do not claim that saving to `exports/` triggers automatic archiving.
+
+## Optional Reading and Listening records
+
+Reading/Listening coaching does not automatically create an archive. If the learner requests a practice record, use `practice-records/_template.md` and save the local deliverable under `exports/practice-records/`. This is not input to either existing archiver. Keep first attempts, revisions, and model demonstrations distinct. Do not require a cognitive profile or error history before beginning useful practice.

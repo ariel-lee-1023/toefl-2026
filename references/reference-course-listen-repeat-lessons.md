@@ -2,9 +2,8 @@
 **Format**: md (from lesson transcripts) | **Lessons**: 3 (task rules · chunking · scoring & error types) | **Sections**: set-structure map + chunk taxonomy + function-word prediction + rubric walkthrough | **Depth**: study
 **Status**: third-party. Where it conflicts with `reference-ets-task-specs.md`, ETS wins. Unique value: a **positional map of the 7-sentence set** — which grammatical shape appears in which slot — plus a **chunk-to-function-word prediction rule** that turns the most common source of lost points into something you can reconstruct. ETS states the ladder and the score bands but never the sentence shapes.
 
-> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
-> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
-> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. On this task in particular the "response" is nothing but the sentence you heard, reproduced — never a list of the chunks you identified.
+> **Task-scoped format:** Drafted Email, Academic Discussion, and Interview answers use connected prose. Listen and Repeat reproduces the supplied sentence; Build a Sentence orders supplied words. This rule does not apply to Reading/Listening choices, missing letters, evidence spans, listening notes, coaching, or archive fields. Formatting alone does not establish an ETS score.
+
 
 ## Mental Model (read first)
 This is the only task in the library where **you are not the author**. There is nothing to invent, nothing to plan, no stance to commit to: you hear one short sentence once and say it back. That removes every skill the other three tasks reward and leaves exactly one — *can you hear English and reproduce it?* Grammar and vocabulary are not tested, because the words are handed to you. Short-term memory is tested only lightly, because the sentences are short.

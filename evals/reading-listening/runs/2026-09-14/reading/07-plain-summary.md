@@ -1,0 +1,1 @@
+Weekend library workshops have moved online because the main hall needs repairs, while weekday workshops remain at the library. Members who cannot attend live may request a recording, which is available for seven days.

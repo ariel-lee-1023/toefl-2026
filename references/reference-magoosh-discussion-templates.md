@@ -2,9 +2,8 @@
 **Format**: md (from pdf) | **Pages**: ~14 | **Sections**: skeleton + 5 phrase menus + practice method | **Depth**: study
 **Status**: third-party. Where it conflicts with `reference-ets-task-specs.md`, ETS wins. Unique value: the **10-minute clock**, an explicit **engagement structure** for the two student posts, and a stated format claim about how the task is built.
 
-> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
-> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
-> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. A response that imitates their appearance scores as ETS's score-1 "telegraphic language (i.e., short and/or disconnected phrases and sentences)."
+> **Task-scoped format:** Drafted Email, Academic Discussion, and Interview answers use connected prose. Listen and Repeat reproduces the supplied sentence; Build a Sentence orders supplied words. This rule does not apply to Reading/Listening choices, missing letters, evidence spans, listening notes, coaching, or archive fields. Formatting alone does not establish an ETS score.
+
 
 
 ## Mental Model (read first)
@@ -15,16 +14,13 @@ The response is **typed into a plain text box in an online discussion forum.** I
 
 **Never produce**: a title or heading · a salutation (*"Dr. Diaz,"*) · a sign-off or name · bullet points or numbered lists · bold/italic markup · label-colon-explanation lines (*"**Niche Interests:** Cities provide…"*).
 
-**Why this is a scoring issue, not a style preference:**
-- ETS requires ideas that are **"well connected, coherent, and easy to follow."** A bulleted list *removes* the connective tissue that criterion measures — you cannot demonstrate connection by deleting the connectors.
-- ETS's **score-1** band names **"telegraphic language (i.e., short and/or disconnected phrases and sentences)."** Bullet fragments are, formally, disconnected phrases. A well-reasoned bulleted post invites the rater to score the *form* far below the thinking behind it.
-- Bolded category labels (*Niche Interests:*, *Cultural Hubs:*) read as headings lifted from a slide deck or a report. Discussion posts do not contain them, and they cost you on the same "own words, own voice, natural for the situation" axis as memorized language.
+**Why this coach uses prose:** connected sentences make the relationship between a claim and its support explicit. This is a drafting convention for composed Discussion answers. The rubric evaluates coherence and development; Markdown symbols alone do not establish a score or a memorized-language penalty. Reading/Listening choices and notes are outside this convention.
 
 **The conversion rule**: anything you would bullet becomes **one sentence in a chain, joined by a sequencing connective, with the label absorbed into the clause.**
 - ✗ `**Niche Interests:** Cities provide the critical mass to sustain specialized clubs.`
 - ✓ `First, cities provide the critical mass needed to sustain specialized clubs and hobby groups that could not survive in a smaller town; someone who plays chess or shoots film can almost always find a group that meets weekly, and a shared hobby quietly becomes a real friendship.`
 
-Note what the conversion buys: the label disappears, a connective appears, and the sentence now has room for the **concrete instance** the bullet had no space for. Bullets don't just look wrong — they structurally suppress elaboration, which is criterion #1.
+The revision joins the claim to a concrete instance. Assess that explanatory connection, not the presence or absence of a bullet symbol.
 
 ## Timing and length
 - **10 minutes total**: 1–2 min read both posts and pick a side (the choice itself should take ~30 s) · 6–7 min write · 1–2 min proofread.
@@ -123,7 +119,7 @@ What makes it work: both students named and **paraphrased, not quoted**; every c
 - **Format expectation**: Magoosh reports that in the official ETS examples they reviewed, the task is **almost always a two-sided debate** between two students, with occasional yes/no variants and no "propose a solution from scratch" format. Useful prior; the ETS chapter itself describes only the two-student debate structure, so treat anything else as an unlikely-but-survivable case — the skeleton still works.
 
 ## Key Takeaways
-0. **Continuous prose only.** No title, no salutation, no sign-off, no bullets, no bold labels. Bullets delete the connective tissue the rubric measures and structurally suppress elaboration.
+0. **Continuous prose only.** No title, no salutation, no sign-off, no bullets, no bold labels. Connect claims to supporting examples; do not infer a rubric score from formatting alone.
 1. **10 minutes: 1–2 read/choose · 6–7 write · 1–2 proofread. Target 120–130 words; 100 is the effective minimum, there is no maximum.**
 2. **Agree with one student, disagree with the other** — the most reliable structure, because it forces engagement with both posts and a clear side.
 3. **Name and paraphrase both students in your own words.** Copying their phrasing is explicitly unhelpful in the ETS chapter.
