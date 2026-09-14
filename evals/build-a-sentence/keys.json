@@ -1,0 +1,293 @@
+[
+  {
+    "item_id": "embedded-library",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3",
+          "s4": "t4"
+        },
+        "answer": "Do you know whether the library is open?",
+        "grammar": "Outer Do-you inversion; whether takes subject then finite verb; library is singular.",
+        "context_fit": "Asks if a study location is available.",
+        "expected_unused": [
+          "t5"
+        ]
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "Outer Do-you inversion; whether takes subject then finite verb; library is singular.",
+      "context": "Asks if a study location is available.",
+      "uniqueness": "No further distinct reading found in bounded review; uniqueness not proved. Identical tile swaps remain equivalent."
+    }
+  },
+  {
+    "item_id": "subject-question",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3"
+        },
+        "answer": "Who called the lab?",
+        "grammar": "Who is the subject; called is finite. did cannot precede called in this neutral question.",
+        "context_fit": "Asks the identity of the caller.",
+        "expected_unused": [
+          "t4"
+        ]
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "Who is the subject; called is finite. did cannot precede called in this neutral question.",
+      "context": "Asks the identity of the caller.",
+      "uniqueness": "No further distinct reading found in bounded review; uniqueness not proved. Identical tile swaps remain equivalent."
+    }
+  },
+  {
+    "item_id": "agreement-distance",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3",
+          "s4": "t4"
+        },
+        "answer": "The list of supplies is on the desk.",
+        "grammar": "Singular list controls is, not plural supplies.",
+        "context_fit": "Locates the requested list.",
+        "expected_unused": [
+          "t5"
+        ]
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "Singular list controls is, not plural supplies.",
+      "context": "Locates the requested list.",
+      "uniqueness": "No further distinct reading found in bounded review; uniqueness not proved. Identical tile swaps remain equivalent."
+    }
+  },
+  {
+    "item_id": "relative-interruption",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3",
+          "s4": "t4",
+          "s5": "t5"
+        },
+        "answer": "The student who presented first received the award.",
+        "grammar": "who presented first modifies student; received is the main predicate.",
+        "context_fit": "Identifies the winning speaker.",
+        "expected_unused": []
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "who presented first modifies student; received is the main predicate.",
+      "context": "Identifies the winning speaker.",
+      "uniqueness": "No further distinct reading found in bounded review; uniqueness not proved. Identical tile swaps remain equivalent."
+    }
+  },
+  {
+    "item_id": "that-relative",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3"
+        },
+        "answer": "The note that she copied vanished.",
+        "grammar": "that links note to the object role in she copied; vanished is the main verb.",
+        "context_fit": "Reports what happened to the note.",
+        "expected_unused": []
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "that links note to the object role in she copied; vanished is the main verb.",
+      "context": "Reports what happened to the note.",
+      "uniqueness": "No further distinct reading found in bounded review; uniqueness not proved. Identical tile swaps remain equivalent."
+    }
+  },
+  {
+    "item_id": "that-content",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3"
+        },
+        "answer": "The claim that she resigned surprised us.",
+        "grammar": "that she resigned supplies the content of claim; no reporting verb is needed.",
+        "context_fit": "Names a surprising claim.",
+        "expected_unused": []
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "that she resigned supplies the content of claim; no reporting verb is needed.",
+      "context": "Names a surprising claim.",
+      "uniqueness": "No further distinct reading found in bounded review; uniqueness not proved. Identical tile swaps remain equivalent."
+    }
+  },
+  {
+    "item_id": "that-demonstrative",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3"
+        },
+        "answer": "That note vanished.",
+        "grammar": "That is the determiner of note.",
+        "context_fit": "Points out the relevant note.",
+        "expected_unused": []
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "That is the determiner of note.",
+      "context": "Points out the relevant note.",
+      "uniqueness": "No further distinct reading found in bounded review; uniqueness not proved. Identical tile swaps remain equivalent."
+    }
+  },
+  {
+    "item_id": "complement-conjunction",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3"
+        },
+        "answer": "You need to bring your pass with you.",
+        "grammar": "need takes to bring; because cannot form a complete clause in any available slot.",
+        "context_fit": "States an entry requirement.",
+        "expected_unused": [
+          "t4"
+        ]
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "need takes to bring; because cannot form a complete clause in any available slot.",
+      "context": "States an entry requirement.",
+      "uniqueness": "No further distinct reading found in bounded review; uniqueness not proved. Identical tile swaps remain equivalent."
+    }
+  },
+  {
+    "item_id": "extra-negator",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3"
+        },
+        "answer": "Did nobody attend the meeting?",
+        "grammar": "Did takes base attend; nobody is subject. The bank and three slots do not support an additional not.",
+        "context_fit": "Confirms whether no one attended, consistent with checking zero attendance.",
+        "expected_unused": [
+          "t4"
+        ]
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "Did takes base attend; nobody is subject. The bank and three slots do not support an additional not.",
+      "context": "Confirms whether no one attended, consistent with checking zero attendance.",
+      "uniqueness": "No further distinct reading found in bounded review; uniqueness not proved. Identical tile swaps remain equivalent."
+    }
+  },
+  {
+    "item_id": "repeated-the",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3",
+          "s4": "t4"
+        },
+        "answer": "Both the lab and the studio are open.",
+        "grammar": "Both coordinated noun phrases take are; each the is a separate piece.",
+        "context_fit": "Names both rooms; exchanging lab and studio is also natural.",
+        "expected_unused": []
+      },
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t4",
+          "s3": "t3",
+          "s4": "t2"
+        },
+        "answer": "Both the studio and the lab are open.",
+        "grammar": "Coordinated noun phrases can occur in either order.",
+        "context_fit": "Names the same two open rooms."
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "Both coordinated noun phrases take are; each the is a separate piece.",
+      "context": "Names both rooms; exchanging lab and studio is also natural.",
+      "uniqueness": "Both noun orders retained; identical the instances can swap freely."
+    }
+  },
+  {
+    "item_id": "adverb-alternatives",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t2",
+          "s3": "t3",
+          "s4": "t4"
+        },
+        "answer": "Mina has already submitted the form.",
+        "grammar": "Already can appear after has or at the end of this clause.",
+        "context_fit": "Reports the completed submission.",
+        "expected_unused": []
+      },
+      {
+        "slots": {
+          "s1": "t1",
+          "s2": "t3",
+          "s3": "t4",
+          "s4": "t2"
+        },
+        "answer": "Mina has submitted the form already.",
+        "grammar": "Already can appear after has or at the end of this clause.",
+        "context_fit": "Reports the completed submission."
+      }
+    ],
+    "review": {
+      "reviewer": "Implementing assistant, language review; not independent calibration",
+      "date": "2026-09-14",
+      "grammar": "Already can appear after has or at the end of this clause.",
+      "context": "Reports the completed submission.",
+      "uniqueness": "Two defensible adverb placements retained."
+    }
+  }
+]

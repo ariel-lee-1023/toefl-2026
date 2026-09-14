@@ -24,6 +24,6 @@ For every existing Writing/Speaking archive task (Email, Academic Discussion, In
 
 Before delivery, verify that the existing parser recognizes every required field and preserves the response. The task-type folder supplies classification; Git does not infer it from prose. `exports/` is the local delivery location; the current GitHub workflow only processes uploads to the appropriate `incoming/` directory. Do not claim that saving to `exports/` triggers automatic archiving.
 
-## Optional Reading and Listening records
+## Optional Reading, Listening, and Build a Sentence records
 
-Reading/Listening coaching does not automatically create an archive. If the learner requests a practice record, use `practice-records/_template.md` and save the local deliverable under `exports/practice-records/`. This is not input to either existing archiver. Keep first attempts, revisions, and model demonstrations distinct. Do not require a cognitive profile or error history before beginning useful practice.
+Reading/Listening and Build a Sentence coaching do not automatically create an archive. If the learner requests a practice record, use `practice-records/_template.md` and save the local deliverable under `exports/practice-records/`. This is not input to either existing archiver. For Build a Sentence, load `references/reference-build-a-sentence-workflow.md`; preserve tile IDs/order, fixed frame, unused tiles, assistance, and uncertainty in the optional record. Keep first attempts, revisions, and model demonstrations distinct. Do not require a cognitive profile or error history before beginning useful practice.

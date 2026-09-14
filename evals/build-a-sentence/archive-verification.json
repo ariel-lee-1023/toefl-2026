@@ -1,0 +1,30 @@
+[
+  {
+    "artifact": "17-planning-venue-change.md",
+    "script": "archive-incoming.js",
+    "result": "passed",
+    "fields_preserved": [
+      "Prompt",
+      "My Polished Response",
+      "My Score Explained"
+    ],
+    "incoming_consumed": true,
+    "location": "isolated temporary repository"
+  },
+  {
+    "artifact": "18-campus-rainwater-storage.md",
+    "script": "archive-semantic-consolidation-buffer.js",
+    "result": "passed",
+    "fields_preserved": [
+      "TOEFL Domain",
+      "Tier",
+      "Core Thesis",
+      "Pillar A",
+      "Pillar B",
+      "Pillar C",
+      "Lexical Bindings"
+    ],
+    "incoming_consumed": true,
+    "location": "isolated temporary repository"
+  }
+]

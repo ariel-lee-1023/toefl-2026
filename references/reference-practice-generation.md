@@ -2,6 +2,10 @@
 
 Status: original item-design workflow, created 2026-09-14. Use [ETS specifications](reference-ets-reading-listening-specs.md) for task mechanics and the relevant course/coaching reference for the learning target. Generated items are original practice, never official ETS items or a calibrated adaptive test.
 
+## Build a Sentence routing
+
+For Build a Sentence, load [the dedicated workflow](reference-build-a-sentence-workflow.md), [course methods](reference-course-build-a-sentence.md), and the Build a Sentence section of [ETS Writing specs](reference-ets-task-specs.md). Use its frame-and-tile model, separate key, mechanical checks, and grammar/context review. Do not substitute Reading/Listening questions or apply their task sizes. The remaining task-specific procedures below concern Reading/Listening.
+
 ## Three modes
 
 | Mode | Preserve | Vary |

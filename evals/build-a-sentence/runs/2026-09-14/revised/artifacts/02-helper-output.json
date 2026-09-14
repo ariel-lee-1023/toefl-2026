@@ -1,0 +1,15 @@
+[
+  {
+    "item_id": "revised-02-workshop",
+    "structure_valid": true,
+    "accepted_arrangements": [
+      {
+        "mechanically_valid": true,
+        "answer": "Do you know when the next workshop begins?",
+        "unused": [
+          "t3"
+        ]
+      }
+    ]
+  }
+]

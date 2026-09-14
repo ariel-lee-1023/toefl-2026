@@ -1,0 +1,41 @@
+{
+  "base_commit": "7646bcbd6c0903147151e63c018779056af42cdc",
+  "state": "uncommitted scoped update on existing dirty checkout",
+  "final_source_sha256": {
+    "AGENTS.md": "8212d74fefbfb535beb16ec2506a176c90eae994a8355bb57d66eaafaf8a2599",
+    "README.md": "00b86c2e3fa1180beaea9a39d5b8d22c226dfeb4b60bf39f5f28208f4bbdb4d6",
+    "SKILL.md": "a4d3f9dbb94c0e606df158b824c260d23b5b0165e1549b31ab44c1ce06a9bccd",
+    "evals/build-a-sentence/checks.py": "b9c66551e920de64663923f01dbe7f57a831bb19510e3c841eb0e9c0fa720013",
+    "evals/build-a-sentence/items.json": "c57780ff0e2c40637c0536399d33da752941595d7147628bf8241edfbad6a0fa",
+    "evals/build-a-sentence/keys.json": "75dd5d035b37c1127ba45ce946904b622b18d6822798492c05219866f630b349",
+    "evals/build-a-sentence/prompts.json": "77b57cc10cfbefcf87d07b403fcba3ebe1ff420781f4040f033f20ad7ae847f8",
+    "practice-records/README.md": "22c35c0b9e317a5611afc5b63dd302a1d3ea647177f095e96fed23889335b3f4",
+    "practice-records/_template.md": "39e076cab51176b66cc28471236d78b2fe8823882c9594bd77109333b89b7b29",
+    "references/reference-audio-delivery.md": "40da9fbc984c5e46a530d0e763e093eab1d6c8442f640c6ea65d385daf128d9c",
+    "references/reference-buffer-workflow.md": "e26ab2d2e2b8078cd6b7cef78b88a4c307ddf426bfb157a411e3ced854b2a57f",
+    "references/reference-build-a-sentence-workflow.md": "0efc7d2f8adf7e5b23f5a4e0eed97353a4314b3298dab08b13e5359694084e10",
+    "references/reference-comprehension-coaching.md": "6c3f96a358575dae68c95e69d0f11f19e56a4db49f70325c374bc3d4bf9d1ee7",
+    "references/reference-course-build-a-sentence.md": "e09683fcd247c045319dc21695834f3c885f555ee336f1d2560a652add1ccd12",
+    "references/reference-course-listen-repeat-lessons.md": "ce1fc333c157670b01cd2db23e1f800bf95c9054bdc1f39bfe72729987f492b2",
+    "references/reference-course-listening.md": "44e337e1fa9714a34c395f8d0d830529a5163257153eff8e487a0cc8ee79d9b7",
+    "references/reference-course-reading.md": "0f9263b262d2db600057e9bdc32f290a6fd640bda1404b45f810466693dc86c8",
+    "references/reference-ets-cefr-descriptors.md": "dd5626c4e5fae4ac87b3e18d3f105893abe23c9cfa244f7bf7e845685edfc7a0",
+    "references/reference-ets-reading-listening-specs.md": "00ea711835cc73f66068ab3900674bb0d360b1e4532d01e839bdc3de39798106",
+    "references/reference-ets-task-specs.md": "404121b7f9a54087a764238ae1501b6ad50587b74a6f6abf6ddc9e3b80abf494",
+    "references/reference-listen-repeat-workflow.md": "a7dc9991f0c27e162ffaaf47ebaaeebc2ebddb415915f733e0820c7828bfb9a1",
+    "references/reference-listening-note-taking.md": "2cb81a0ba5039d5e8de98475d7593b06842f39e77350014840b2a4d2afc7ba4b",
+    "references/reference-magoosh-discussion-templates.md": "bb57feaa12367e6e6018ea0c0df3dd2889106dd88306dd6874d34713087b11ed",
+    "references/reference-magoosh-email-templates.md": "1fd9327d40144f57baf2b525e6cea61781549a45b7a01e6fa16298c7c943c50c",
+    "references/reference-magoosh-interview-templates.md": "7c161a8f2c92f75d4fd624ac77fadae2d5f60f4712d7da26a85c9bf48ed83a8e",
+    "references/reference-practice-generation.md": "67e95c16f4d7e3322a46fa1494941d99d03dd37d305887193170fb74c630dfd7",
+    "references/reference-response-archive.md": "c5a7f15e50d826ff1af2a29bd74cf9f1c35eb32eff14293d6a033d568665ca73",
+    "scripts/validate-build-a-sentence.py": "e83914fee0b1d0c5c35e37085e66168ab9716af75bf94904401756b3181170dd"
+  },
+  "initial_behavioral_workflow_sha256": "d134ce15c99a4352058f71448be7942ce0e7f8797b9b3329ead2ba419de6c3e4",
+  "existing_regression_scripts_sha256": {
+    "evals/reading-listening/checks.py": "ca816a1448b07a5b3648d615a38068240c11b6d8f995a458ec29fa030c791624",
+    ".github/scripts/archive-incoming.js": "ac8dfcd585a1f6151bc8da2da0bad4b1059f94e9ff27aca9bfea47741eb2be93",
+    ".github/scripts/archive-semantic-consolidation-buffer.js": "00f1ec0a2eb84dd0a595f1fac59a41555df84005e4cbc571d93eba3437edd4f0",
+    "scripts/render-listening.py": "bb79853bd27847549b7e7262e611bdd415b1b71bb38f6f2fe145c57c4ad0961d"
+  }
+}

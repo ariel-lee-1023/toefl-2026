@@ -1,0 +1,28 @@
+[
+  {
+    "item_id": "revised-16-exhibition",
+    "structure_valid": true,
+    "accepted_arrangements": [
+      {
+        "mechanically_valid": true,
+        "answer": "The exhibit about ancient coins opens on Friday.",
+        "unused": [
+          "t2"
+        ]
+      }
+    ]
+  },
+  {
+    "item_id": "revised-16-bicycle",
+    "structure_valid": true,
+    "accepted_arrangements": [
+      {
+        "mechanically_valid": true,
+        "answer": "Who repaired the bicycle?",
+        "unused": [
+          "t2"
+        ]
+      }
+    ]
+  }
+]

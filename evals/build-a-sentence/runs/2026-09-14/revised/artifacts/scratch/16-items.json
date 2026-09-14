@@ -1,0 +1,110 @@
+[
+  {
+    "schema_version": 1,
+    "id": "revised-16-exhibition",
+    "context": "A friend wants to know when the exhibit about ancient coins will open.",
+    "frame": [
+      {
+        "text": "The "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s4"
+      },
+      {
+        "text": "."
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t1",
+        "text": "on Friday"
+      },
+      {
+        "id": "t2",
+        "text": "open"
+      },
+      {
+        "id": "t3",
+        "text": "exhibit"
+      },
+      {
+        "id": "t4",
+        "text": "opens"
+      },
+      {
+        "id": "t5",
+        "text": "about ancient coins"
+      }
+    ],
+    "target_skill": "Agreement across a modifying phrase",
+    "provenance": {
+      "kind": "original",
+      "source": "Original synthetic targeted practice created for this request; not an official exam simulation.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Introductory-to-moderate estimate: a plural noun intervenes between singular subject head and finite verb.",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "revised-16-bicycle",
+    "context": "Someone fixed your bicycle while you were away. You want to find out who did it.",
+    "frame": [
+      {
+        "text": "Who "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": "?"
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t1",
+        "text": "the bicycle"
+      },
+      {
+        "id": "t2",
+        "text": "did"
+      },
+      {
+        "id": "t3",
+        "text": "repaired"
+      }
+    ],
+    "target_skill": "Direct subject question",
+    "provenance": {
+      "kind": "original",
+      "source": "Original synthetic targeted practice created for this request; not an official exam simulation.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Introductory: fixed interrogative subject and a simple transitive predicate; auxiliary distractor.",
+    "review_status": "reviewed"
+  }
+]

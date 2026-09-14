@@ -1,0 +1,25 @@
+{
+  "item_id": "revised-02-workshop",
+  "accepted": [
+    {
+      "slots": {
+        "s1": "t4",
+        "s2": "t2",
+        "s3": "t1"
+      },
+      "answer": "Do you know when the next workshop begins?",
+      "grammar": "When introduces an embedded interrogative with subject the next workshop before finite verb begins. Singular workshop requires begins.",
+      "context_fit": "The completed question requests the starting time of the next workshop.",
+      "expected_unused": [
+        "t3"
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Coach language review during independent forward execution",
+    "date": "2026-09-14",
+    "grammar": "When introduces an embedded interrogative with subject the next workshop before finite verb begins. Singular workshop requires begins.",
+    "context": "The completed question requests the starting time of the next workshop.",
+    "uniqueness": "Reviewed competing orders and the begin distractor. No other ordinary grammatical answer identified with this bank and immutable frame; this judgment is not a formal uniqueness proof."
+  }
+}

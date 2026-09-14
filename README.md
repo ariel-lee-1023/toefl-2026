@@ -24,7 +24,8 @@ Other roots: `~/.copilot/skills/`, `~/.agents/skills/`, `.claude/skills/`, `.age
 | Listening | Choose a Response, Conversation, Announcement, Academic Talk; intent, details, organization, and supported inference | “Give me a short announcement, then ask me what to do next.” |
 | Listening notes | Selection, relationship labels, final decisions, cue retrieval, and timed choice comparison | “Here are my notes. I ran out of time searching them.” |
 | Original practice | Existing material with new questions, new original material, or focused micro-exercises | “Make five new questions about this passage. Put the key in a separate file.” |
-| Writing | Build a Sentence, Write an Email, Academic Discussion | “Help me write a clear, well-supported discussion response.” |
+| Build a Sentence | Direct solutions, graduated coaching, original reviewed tile exercises, and key challenges | “Help me arrange these tiles, but give only a small hint first.” |
+| Writing | Write an Email, Academic Discussion | “Help me write a clear, well-supported discussion response.” |
 | Speaking | Listen and Repeat, Take an Interview | “Help me chunk this Listen and Repeat sentence.” |
 | General study notes | Existing Active Cognitive Buffer and Flexible Mode | “Re-encode this lecture into a structured study note.” |
 
@@ -43,11 +44,20 @@ Only [SKILL.md](SKILL.md) is the entry point. Load the reference needed for the 
 | [Comprehension coaching](references/reference-comprehension-coaching.md) | Graduated help, meaning matching and optional error analysis |
 | [Practice generation](references/reference-practice-generation.md) | Three modes, task constraints and question-quality checks |
 | [Audio delivery](references/reference-audio-delivery.md) | Host discovery, playable local adapter and text-only fallback |
+| [Build a Sentence workflow](references/reference-build-a-sentence-workflow.md), [course methods](references/reference-course-build-a-sentence.md) | Fixed frames, indivisible tiles, clause structure, independent practice, reviewed alternatives and source corrections |
 | [ETS Writing/Speaking task specs](references/reference-ets-task-specs.md) | Existing task mechanics, rubrics and rated examples |
 | [ETS Writing/Speaking descriptors](references/reference-ets-cefr-descriptors.md) | Existing section performance descriptors |
 | [Email](references/reference-magoosh-email-templates.md), [Discussion](references/reference-magoosh-discussion-templates.md), [Interview](references/reference-magoosh-interview-templates.md) | Existing Magoosh teaching frameworks |
 | [Listen and Repeat lessons](references/reference-course-listen-repeat-lessons.md), [workflow](references/reference-listen-repeat-workflow.md) | Existing Speaking reproduction coaching |
 | [Buffer workflow](references/reference-buffer-workflow.md), [archive formats](references/reference-response-archive.md) | Existing study-note and Writing/Speaking schemas |
+
+## Build a Sentence
+
+The [dedicated workflow](references/reference-build-a-sentence-workflow.md) supports immediate explanations, one-item interactive coaching, and independent batches with separate keys. It checks fixed text, repeated tile instances, phrase boundaries, clause order, agreement, and contextual fit. Plausible alternatives are reviewed instead of rejected merely for differing from the first key.
+
+The textual tile interface is targeted skill practice, without a drag-and-drop exam UI or calibrated difficulty. The standard-library Python validator checks accounting and key reconstruction; it does not judge English or prove a unique answer. Grammar and context are reviewed separately. Success after a cue is recorded as assisted, with fresh material and later retests needed before discussing independent progress.
+
+See the [fixtures, commands, and behavioral evidence](evals/build-a-sentence/README.md). The [course reference](references/reference-course-build-a-sentence.md) attributes useful strategies and corrects overgeneralized inversion, SVO, distractor, and `that` shortcuts. Raw lesson text and missing slides are not published.
 
 ## Audio boundaries
 
@@ -104,7 +114,7 @@ To publish a completed entry through the existing GitHub Actions:
 
 These automations organize already prepared content; they do not call an AI to score responses or summarize sources. Saving a file to `exports/` alone does not trigger them.
 
-### Optional Reading and Listening practice records
+### Optional Reading, Listening, and Build a Sentence practice records
 
 [Practice records](practice-records/README.md) capture a requested exercise's material provenance, familiarity, assistance, actual attempt, feedback, and next target. Notes and timing are recorded only when available. They are lightweight and opt-in, saved locally under `exports/practice-records/`, and do not enter either archive workflow.
 
@@ -121,13 +131,15 @@ separate; withhold listening transcripts and answer-specific cues before a first
 attempt unless scaffolding is requested. Discover audio capabilities; scripts
 alone are text-based work. Draft Email, Discussion and Interview answers in
 connected prose. Choices, missing letters, evidence spans and exam notes may be
-short. Records are optional for Reading/Listening. Use ETS for official rules,
+short. Build a Sentence preserves fixed frames and indivisible tiles, with local outcomes
+separate from composition rubrics. Records are optional for Reading/Listening
+and Build a Sentence. Use ETS for official rules,
 the attributed courses for methods, and label original coaching designs.
 ```
 
 ## Sources and evidence limits
 
-The original library draws on ETS Official Guide Chapters 4–5, ETS Writing/Speaking performance descriptors, three Magoosh template guides, and a third-party Listen and Repeat lesson series. This extension adds current ETS Reading/Listening pages, the 2026 blueprint and sample overview, the supplied Reading and Listening course transcripts, and the supplied 2026-09-14 note-taking guide. Each new reference records provenance, verification date, and coverage limits. The course documents contain missing slides, omitted choices, transcription errors, and unavailable audio. This release distils their methods rather than publishing the full transcripts.
+The original library draws on ETS Official Guide Chapters 4–5, ETS Writing/Speaking performance descriptors, three Magoosh template guides, and a third-party Listen and Repeat lesson series. This extension adds current ETS Reading/Listening pages, the 2026 blueprint and sample overview, the supplied Reading and Listening course transcripts, and the supplied 2026-09-14 note-taking guide. The Build a Sentence extension adds the supplied Magoosh sentence-strategy lesson and its engineering brief, with a current ETS Writing page check. Each new reference records provenance, verification date, and coverage limits. The course documents contain missing slides, omitted choices, transcription errors, and unavailable audio. This release distils their methods rather than publishing the full transcripts.
 
 ETS defines official mechanics. Course pacing and note routines are adjustable suggestions. The note guide's past learner difficulties are historical reports, not assumptions about every user. Cognitive-science language supplies possible explanations, not clinical diagnoses or evidence that this coaching protocol was experimentally validated. An optional companion [Cognitive-Neuroscience-Expert](https://github.com/ariel-lee-1023/Cognitive-Neuroscience-Expert) analysis must use actual supplied work and qualify its conclusions; it is not required for practice.
 

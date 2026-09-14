@@ -1,13 +1,13 @@
 # The Official Guide to the TOEFL iBT Test, Pocket Edition — Ch. 4 (Writing) & Ch. 5 (Speaking) — ETS
 **Format**: md (from pdf) | **Pages**: ~50 (pp. 197–247) | **Sections**: 2 chapters, 5 tasks | **Depth**: study
-**Authority**: This is the *only* first-party source in the library. Where it conflicts with any Magoosh reference file, **this file wins.**
+**Authority**: ETS is the first-party authority. This reference combines an existing Official Guide synthesis with a dated live-page check below; current verified ETS material outranks third-party methods and unverified historical synthesis.
 
 > **Task-scoped format:** Drafted Email, Academic Discussion, and Interview answers use connected prose. Listen and Repeat reproduces the supplied sentence; Build a Sentence orders supplied words. This rule does not apply to Reading/Listening choices, missing letters, evidence spans, listening notes, coaching, or archive fields. Formatting alone does not establish an ETS score.
 
 
 
 ## Mental Model (read first)
-ETS scores **communicative effectiveness under time pressure**, not polish. Every task rubric puts *elaboration* and *addressing the prompt* first, language accuracy last — and explicitly forgives "errors expected from a competent writer/speaker working under timed conditions." The single most consequential thing in these two chapters is the **inverse pair**: errors are cheap, and *memorized or formulaic language is expensive*. ETS states in four separate places that responses appearing to contain memorized text score considerably lower. So the exam rewards a slightly messy authentic voice over a clean rehearsed one.
+For composed Email, Academic Discussion, and Interview responses, evaluate relevant development and communicative effectiveness with the applicable rubric; timed first drafts can contain some errors. These principles do not license changing supplied words in Build a Sentence or adding ideas in Listen and Repeat. Sentence arrangement requires grammar, context, and exact item constraints. Reproduction uses its own accuracy and intelligibility criteria.
 
 ---
 
@@ -15,12 +15,14 @@ ETS scores **communicative effectiveness under time pressure**, not polish. Ever
 
 **Format**: ~12 questions, **linear** (everyone gets the same tasks regardless of prior performance). Three task types. For *Write an Email* and *Write for an Academic Discussion*, the scoring criteria explicitly **treat your response as a first draft** — a response with some errors can still earn the top score.
 
-### Task 1 — Build a Sentence
-- **Core idea**: Sentence-level grammar plus contextual appropriateness, measured jointly.
-- **Mechanics**: A two-turn exchange. Turn 1 is complete; turn 2 has **3–7 blanks** plus jumbled words/phrases. Reorder them into turn 2. **~10 such questions per test.** Scored **right/wrong, no partial credit.**
-- **Distractor rule** — some questions include **one extra word or phrase you must NOT use**. In the official examples the extras were *not* (in a negative question already carrying "Didn't") and *because* (where an embedded "why"-clause was required). **Tell**: the extra is usually a redundant negator or a conjunction that duplicates a function another word already performs.
-- **How** (ETS's own strategy order): identify sentence type (question / statement / command) → locate subject + main verb → use turn 1 for setting, tone, topic → test arrangements against English syntax (SVO, adverb placement) → eliminate the extra → read it aloud (silently) for natural flow.
-- **Anti-pattern** — solving for grammar only: a grammatical sentence that doesn't respond sensibly to turn 1 is still wrong. Both halves are scored.
+### Task 1: Build a Sentence
+
+- **Official, verified 2026-09-14:** [ETS TOEFL iBT Writing Section](https://www.ets.org/toefl/test-takers/ibt/about/content/writing.html), “Writing tasks type,” Build a Sentence: arrange provided words or phrases into a grammatical complete sentence or question. It assesses sentence structure.
+- **Coverage limit:** That live page does not establish a universal blank count, distractor frequency, exact item count, or item-level partial-credit policy. Do not infer these from its broad section-level scoring prose. Verify detailed mechanics against a current iBT specification or complete example before claiming exam-format fidelity; do not substitute TOEFL Essentials rules.
+- **Historical Guide synthesis, not reverified here:** The earlier library describes two-turn exchanges with fixed text, movable words/phrases, and sometimes an unused tile. Its reported example distractors include `not` beside an already negative question and `because` where a `why` clause was needed. These examples establish no category-frequency rule. Removed the unsupported “usually” inference and withheld universal counts and right/wrong scoring claims pending source-level verification.
+- **Coaching design:** Inspect frame, punctuation, subjects and verbs, clause boundaries, agreement, and contextual fit. Direct questions, subject questions, embedded clauses, and commands require their own structures; neither universal SVO nor universal inversion is a validator.
+- **Practice boundary:** Use correct / incorrect / unresolved / flawed item locally. Do not apply elaboration rubrics or convert these outcomes to a section score. Mechanical validation cannot establish grammaticality, contextual fit, or uniqueness.
+- **Implementation:** Load [course methods](reference-course-build-a-sentence.md) for attributed strategies and corrections, and [the workflow](reference-build-a-sentence-workflow.md) for solving, coaching, generation, and the item contract.
 
 ### Task 2 — Write an Email
 - **Core idea**: A **campus-life** scenario (situations on a university campus that don't involve academic content). The prompt always names a recipient and gives **three required actions** — e.g. *describe, explain, recommend* / *describe, explain, request*.

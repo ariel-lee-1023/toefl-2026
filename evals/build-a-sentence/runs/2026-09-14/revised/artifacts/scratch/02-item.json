@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "revised-02-workshop",
+  "context": "You want to attend the next workshop and need to find out its starting time.",
+  "frame": [
+    {
+      "text": "Do you know "
+    },
+    {
+      "slot": "s1"
+    },
+    {
+      "text": " "
+    },
+    {
+      "slot": "s2"
+    },
+    {
+      "text": " "
+    },
+    {
+      "slot": "s3"
+    },
+    {
+      "text": "?"
+    }
+  ],
+  "tiles": [
+    {
+      "id": "t1",
+      "text": "begins"
+    },
+    {
+      "id": "t2",
+      "text": "the next workshop"
+    },
+    {
+      "id": "t3",
+      "text": "begin"
+    },
+    {
+      "id": "t4",
+      "text": "when"
+    }
+  ],
+  "target_skill": "Embedded interrogative word order",
+  "provenance": {
+    "kind": "original",
+    "source": "Original synthetic targeted practice created for this request; not an official exam simulation.",
+    "date": "2026-09-14"
+  },
+  "estimated_difficulty": "Introductory: fixed outer question, one embedded clause, and one agreement distractor.",
+  "review_status": "reviewed"
+}

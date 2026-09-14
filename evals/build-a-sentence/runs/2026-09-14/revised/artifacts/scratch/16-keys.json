@@ -1,0 +1,52 @@
+[
+  {
+    "item_id": "revised-16-exhibition",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t3",
+          "s2": "t5",
+          "s3": "t4",
+          "s4": "t1"
+        },
+        "answer": "The exhibit about ancient coins opens on Friday.",
+        "grammar": "Exhibit is the singular head; about ancient coins modifies it. Opens agrees with exhibit. The intact time phrase on Friday follows the verb.",
+        "context_fit": "The reply identifies the opening day of the exhibit mentioned in context.",
+        "expected_unused": [
+          "t2"
+        ]
+      }
+    ],
+    "review": {
+      "reviewer": "Coach language review during independent forward execution",
+      "date": "2026-09-14",
+      "grammar": "Exhibit is the singular head; about ancient coins modifies it. Opens agrees with exhibit. The intact time phrase on Friday follows the verb.",
+      "context": "The reply identifies the opening day of the exhibit mentioned in context.",
+      "uniqueness": "Reviewed placements of about ancient coins and on Friday: the accepted arrangement yields the natural noun modifier and time adjunct. Alternatives with misplaced noun modifier are not ordinary grammatical answers here. No additional answer identified; uniqueness is a language judgment, not a proof."
+    }
+  },
+  {
+    "item_id": "revised-16-bicycle",
+    "accepted": [
+      {
+        "slots": {
+          "s1": "t3",
+          "s2": "t1"
+        },
+        "answer": "Who repaired the bicycle?",
+        "grammar": "Who is the subject of a neutral subject question. Repaired is the finite verb with the bicycle as its object. Did is unnecessary, and did repaired would violate the base-form requirement after did.",
+        "context_fit": "The question identifies the person responsible for fixing the bicycle.",
+        "expected_unused": [
+          "t2"
+        ]
+      }
+    ],
+    "review": {
+      "reviewer": "Coach language review during independent forward execution",
+      "date": "2026-09-14",
+      "grammar": "Who is the subject of a neutral subject question. Repaired is the finite verb with the bicycle as its object. Did is unnecessary, and did repaired would violate the base-form requirement after did.",
+      "context": "The question identifies the person responsible for fixing the bicycle.",
+      "uniqueness": "Reviewed all six two-tile orders. Only repaired followed by the bicycle supplies a grammatical finite predicate and object after fixed Who in this context. This is a bounded language review, not an automatic English-parser result."
+    }
+  }
+]

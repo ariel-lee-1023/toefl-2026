@@ -1,0 +1,626 @@
+[
+  {
+    "schema_version": 1,
+    "id": "embedded-library",
+    "context": "I need somewhere to study.",
+    "frame": [
+      {
+        "text": "Do you know "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s4"
+      },
+      {
+        "text": "?"
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t2",
+        "text": "the library"
+      },
+      {
+        "id": "t3",
+        "text": "is"
+      },
+      {
+        "id": "t4",
+        "text": "open"
+      },
+      {
+        "id": "t5",
+        "text": "are"
+      },
+      {
+        "id": "t1",
+        "text": "whether"
+      }
+    ],
+    "target_skill": "embedded interrogative and agreement",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: embedded interrogative and agreement",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "subject-question",
+    "context": "Someone called the lab while I was away.",
+    "frame": [
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": "?"
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t3",
+        "text": "the lab"
+      },
+      {
+        "id": "t2",
+        "text": "called"
+      },
+      {
+        "id": "t1",
+        "text": "Who"
+      },
+      {
+        "id": "t4",
+        "text": "did"
+      }
+    ],
+    "target_skill": "subject question",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: subject question",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "agreement-distance",
+    "context": "Where is the list?",
+    "frame": [
+      {
+        "text": "The "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s4"
+      },
+      {
+        "text": "."
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t3",
+        "text": "is"
+      },
+      {
+        "id": "t5",
+        "text": "are"
+      },
+      {
+        "id": "t2",
+        "text": "of supplies"
+      },
+      {
+        "id": "t4",
+        "text": "on the desk"
+      },
+      {
+        "id": "t1",
+        "text": "list"
+      }
+    ],
+    "target_skill": "agreement across intervening plural",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: agreement across intervening plural",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "relative-interruption",
+    "context": "Which speaker won?",
+    "frame": [
+      {
+        "text": "The "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s4"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s5"
+      },
+      {
+        "text": "."
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t3",
+        "text": "presented first"
+      },
+      {
+        "id": "t1",
+        "text": "student"
+      },
+      {
+        "id": "t4",
+        "text": "received"
+      },
+      {
+        "id": "t5",
+        "text": "the award"
+      },
+      {
+        "id": "t2",
+        "text": "who"
+      }
+    ],
+    "target_skill": "interrupting relative clause",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: interrupting relative clause",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "that-relative",
+    "context": "What happened to the note she copied?",
+    "frame": [
+      {
+        "text": "The note "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": "."
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t2",
+        "text": "she copied"
+      },
+      {
+        "id": "t3",
+        "text": "vanished"
+      },
+      {
+        "id": "t1",
+        "text": "that"
+      }
+    ],
+    "target_skill": "relative that",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: relative that",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "that-content",
+    "context": "What surprised the committee?",
+    "frame": [
+      {
+        "text": "The claim "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": "."
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t2",
+        "text": "she resigned"
+      },
+      {
+        "id": "t1",
+        "text": "that"
+      },
+      {
+        "id": "t3",
+        "text": "surprised us"
+      }
+    ],
+    "target_skill": "content-clause that after a noun",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: content-clause that after a noun",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "that-demonstrative",
+    "context": "Which note vanished?",
+    "frame": [
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": "."
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t2",
+        "text": "note"
+      },
+      {
+        "id": "t1",
+        "text": "That"
+      },
+      {
+        "id": "t3",
+        "text": "vanished"
+      }
+    ],
+    "target_skill": "demonstrative that",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: demonstrative that",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "complement-conjunction",
+    "context": "How can I enter the workshop?",
+    "frame": [
+      {
+        "text": "You need "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": "."
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t1",
+        "text": "to bring"
+      },
+      {
+        "id": "t3",
+        "text": "with you"
+      },
+      {
+        "id": "t4",
+        "text": "because"
+      },
+      {
+        "id": "t2",
+        "text": "your pass"
+      }
+    ],
+    "target_skill": "infinitive complement and extra conjunction",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: infinitive complement and extra conjunction",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "extra-negator",
+    "context": "I am checking that attendance was zero.",
+    "frame": [
+      {
+        "text": "Did "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": "?"
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t2",
+        "text": "attend"
+      },
+      {
+        "id": "t3",
+        "text": "the meeting"
+      },
+      {
+        "id": "t1",
+        "text": "nobody"
+      },
+      {
+        "id": "t4",
+        "text": "not"
+      }
+    ],
+    "target_skill": "negation and context",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: negation and context",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "repeated-the",
+    "context": "Which two rooms are open?",
+    "frame": [
+      {
+        "text": "Both "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " and "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s4"
+      },
+      {
+        "text": " are open."
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t2",
+        "text": "lab"
+      },
+      {
+        "id": "t4",
+        "text": "studio"
+      },
+      {
+        "id": "t1",
+        "text": "the"
+      },
+      {
+        "id": "t3",
+        "text": "the"
+      }
+    ],
+    "target_skill": "repeated identical tile instances",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: repeated identical tile instances",
+    "review_status": "reviewed"
+  },
+  {
+    "schema_version": 1,
+    "id": "adverb-alternatives",
+    "context": "What has Mina already done?",
+    "frame": [
+      {
+        "text": "Mina "
+      },
+      {
+        "slot": "s1"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s2"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s3"
+      },
+      {
+        "text": " "
+      },
+      {
+        "slot": "s4"
+      },
+      {
+        "text": "."
+      }
+    ],
+    "tiles": [
+      {
+        "id": "t2",
+        "text": "already"
+      },
+      {
+        "id": "t4",
+        "text": "the form"
+      },
+      {
+        "id": "t1",
+        "text": "has"
+      },
+      {
+        "id": "t3",
+        "text": "submitted"
+      }
+    ],
+    "target_skill": "multiple adverb placements",
+    "provenance": {
+      "kind": "original",
+      "source": "Locally authored targeted skill practice, not an ETS or recovered course item.",
+      "date": "2026-09-14"
+    },
+    "estimated_difficulty": "Moderate design estimate: multiple adverb placements",
+    "review_status": "reviewed"
+  }
+]
