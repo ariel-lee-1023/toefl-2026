@@ -1,6 +1,6 @@
 # TOEFL 2026 Coach: Reading, Listening, Writing & Speaking
 
-An agent skill for guided comprehension, precise meaning matching, listening notes and retrieval, and original practice, alongside the existing Writing/Speaking coaching and structured study-note workflow. The local folder and skill identifier are `toefl-2026`. The GitHub repository remains at its existing URL.
+An agent skill for guided comprehension, precise meaning matching, listening notes and retrieval, and original practice, alongside the existing Writing/Speaking coaching and structured study-note workflow. The local folder and skill identifier are `toefl-2026`. The repository is hosted at [ariel-lee-1023/toefl-2026](https://github.com/ariel-lee-1023/toefl-2026).
 
 The default learning loop is one short task, your attempt, feedback, then a variation. You can start without wrong answers, a score report, or a personal profile. Ask for direct explanations, worked demonstrations, a batch, or the full answer whenever you prefer. Error analysis is available when requested or when reviewing an attempt; it is not the entry point to every session.
 
@@ -9,7 +9,7 @@ The default learning loop is one short task, your attempt, feedback, then a vari
 Clone into a skills root your agent reads (Claude Code shown):
 
 ```bash
-git clone https://github.com/ariel-lee-1023/toefl-2026-writing-speaking.git \
+git clone https://github.com/ariel-lee-1023/toefl-2026.git \
   ~/.claude/skills/toefl-2026
 ```
 
@@ -57,11 +57,56 @@ A renderer success does not verify every spoken word. Inspect playback or ASR wh
 
 When playable audio cannot be generated, use a clearly labelled script-based exercise or guide practice with an accessible learner recording. A script alone is not completed listening practice. Transcripts cannot establish pronunciation, stress, actual audibility, or timestamps. Missing source audio is never reconstructed and presented as the original.
 
-## Optional records and existing archives
+## Personal learning archives
 
-[Practice records](practice-records/README.md) are lightweight and opt-in. They capture activity, provenance, familiarity, assistance, the actual attempt, feedback and a next target. Record notes and timing only when available. Local project records go under `exports/practice-records/`; they do not enter the existing archivers.
+The repository also keeps two collections for later review: finished Writing/Speaking work in [polished-5-5-responses/](polished-5-5-responses/), and structured understanding of source material in [semantic-consolidation-buffer/](semantic-consolidation-buffer/). The coaching rules live in `references/`; these archives hold personal learning outputs.
 
-Existing Email, Discussion, Interview and Listen and Repeat archive fields remain unchanged. The project uses `exports/<task-type>/` for local deliverables. GitHub workflows process uploads to `polished-5-5-responses/incoming/<task-type>/`, and the [Buffer workflow](semantic-consolidation-buffer/README.md) processes `semantic-consolidation-buffer/incoming/`. Saving an export does not run these workflows. Existing locally deleted archive files are not recreated by this extension.
+### Polished 5/5 Responses: review your Writing and Speaking work
+
+[polished-5-5-responses/](polished-5-5-responses/README.md) is a personal collection of polished responses, score explanations, and sentence-reproduction study sets. Use it before an exam to revisit effective phrasing and reasoning, compare responses across topics, or return to a sentence set's chunking and pronunciation targets.
+
+| Folder | What an entry contains |
+|---|---|
+| [write-an-email/](polished-5-5-responses/write-an-email/) | One email prompt, the polished response, and an explanation grounded in the rubric |
+| [academic-discussion/](polished-5-5-responses/academic-discussion/) | One discussion prompt including both student posts, the polished response, and its score explanation |
+| [interview/](polished-5-5-responses/interview/) | One complete four-question session, with all four responses and a shared score explanation |
+| [listen-and-repeat/](polished-5-5-responses/listen-and-repeat/) | One sentence set, a sentence-by-sentence chunk map, memory strategy, pronunciation targets, and self-assessment when supplied |
+
+The Email, Discussion, and Interview collection is intended for responses confirmed as 5/5 within the coaching workflow. The folder name is not ETS certification or a guarantee of an exam score. Any archived model demonstration must be identified as a model; speaking delivery remains unassessed without audio evidence. Listen and Repeat entries preserve the source sentences and analyse how to reproduce them accurately.
+
+Example request: “Review this archived discussion response with me. Explain how its reasoning and phrasing work, then give me a new topic to practise the same skills.”
+
+### Semantic Consolidation Buffer: turn source material into reusable understanding
+
+[semantic-consolidation-buffer/](semantic-consolidation-buffer/README.md) stores English study notes built from readings, podcast transcripts, lectures, meetings, or conversations. Use it after studying a source to preserve its central argument, supporting relationships, and useful academic vocabulary for later review across all four skills. Source material can be in another language; the resulting note is in English.
+
+Each note contains four components:
+
+- **Academic domain:** one dominant subject area, such as Economics or Biology.
+- **Core thesis:** one sentence synthesizing the source's main point.
+- **Three supporting pillars:** context/problem, mechanism/intervention, and implication/result, while preserving the relationships the source actually supports. A sequence or association must not be rewritten as a proven cause.
+- **Lexical bindings:** key concepts paired with academic English equivalents or paraphrases.
+
+The workflow adjusts detail to the source's density and records the resulting expansion tier. Completed notes live in [content/](semantic-consolidation-buffer/content/). The cognitive terminology describes the study method; it does not establish experimentally verified learning effects.
+
+Example request: “Turn this podcast transcript into a Semantic Consolidation Buffer note. Preserve the main argument and evidence, and help me express its key concepts in academic English.”
+
+This is a review workflow after studying the material. During listening practice, use selective exam notes and cue retrieval. If you ask for comprehension questions about a transcript, the coach follows that request; uploading a transcript alone does not automatically create a Buffer note.
+
+### How to add an archive entry
+
+The coach saves local archive deliverables under `exports/<task-type>/` for Writing/Speaking or `exports/semantic-consolidation-buffer/` for study notes. These Markdown files use the appropriate archiver's input fields.
+
+To publish a completed entry through the existing GitHub Actions:
+
+1. Upload the exported `.md` or `.txt` file to [polished-5-5-responses/incoming/<task-type>/](polished-5-5-responses/incoming/README.md) or [semantic-consolidation-buffer/incoming/](semantic-consolidation-buffer/incoming/README.md), following that folder's input instructions.
+2. Commit it to `main`. With GitHub Actions enabled and permitted to write, the matching workflow formats and numbers the entry, commits it to the archive, and removes the processed incoming file.
+
+These automations organize already prepared content; they do not call an AI to score responses or summarize sources. Saving a file to `exports/` alone does not trigger them.
+
+### Optional Reading and Listening practice records
+
+[Practice records](practice-records/README.md) capture a requested exercise's material provenance, familiarity, assistance, actual attempt, feedback, and next target. Notes and timing are recorded only when available. They are lightweight and opt-in, saved locally under `exports/practice-records/`, and do not enter either archive workflow.
 
 ## Retrieval hosts
 
