@@ -1,6 +1,6 @@
 # TOEFL 2026 Coach: Reading, Listening, Writing & Speaking
 
-An agent skill for guided comprehension, precise meaning matching, listening notes and retrieval, and original practice, alongside the existing Writing/Speaking coaching and structured study-note workflow. The local folder and skill identifier are `toefl-2026`. The repository is hosted at [ariel-lee-1023/toefl-2026](https://github.com/ariel-lee-1023/toefl-2026).
+An agent skill for guided comprehension, precise meaning matching, listening notes and retrieval, and original practice, alongside the existing Writing/Speaking coaching and structured study-note workflow.
 
 The default learning loop is one short task, your attempt, feedback, then a variation. You can start without wrong answers, a score report, or a personal profile. Ask for direct explanations, worked demonstrations, a batch, or the full answer whenever you prefer. Error analysis is available when requested or when reviewing an attempt; it is not the entry point to every session.
 
