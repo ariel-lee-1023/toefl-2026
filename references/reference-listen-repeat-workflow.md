@@ -19,4 +19,3 @@ This task has no draft to polish, so the other tasks' diagnose→rewrite loop do
 **When the user supplies their own attempt or transcript**, diff it against the source sentence word by word before scoring, and classify each difference by the step-6 categories. Report the diff — a missing *the* and a dropped *-ed* are two different problems with two different fixes, and pooling them as "pronunciation" destroys the diagnosis.
 
 **Never, on this task:** rewrite or improve the sentence · give elaboration, stance, or connective advice · treat template language as a memorization risk · let a chunk analysis stand as the spoken response · show the user the text before they have attempted it blind · advise note-taking. And always restate the governing tradeoff when the user reports freezing: **finishing an imperfect sentence beats stopping to fix one** — truncation turns a likely 4 into a 2, while a missing article stays inside the 4 band.
-

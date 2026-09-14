@@ -28,4 +28,3 @@ B
 ## Optional model demonstration
 
 None supplied or generated. Neither the original A nor the revision B is a model response.
-

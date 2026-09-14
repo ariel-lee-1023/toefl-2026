@@ -125,4 +125,3 @@ Rules for this block: **every sentence in the Prompt gets a Set Map row** — a 
 The two prose fields (`My Chunking & Memory Strategy`, `My Pronunciation Focus`) carry the actual analysis from the answer above, not a compressed digest of it.
 
 Remind the user, briefly, that v1.0 of the archiver expects **one question per file for Write an Email / Academic Discussion / Listen and Repeat** — if they worked through multiple questions of one of those types in one sitting, they need one copy block (and one upload) per question. **Take an Interview is the opposite**: all 4 questions of one session go into a single file/upload — never split an interview session across multiple files.
-

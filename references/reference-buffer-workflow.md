@@ -90,4 +90,3 @@ After giving the complete note, append a single fenced markdown block formatted 
 Same content-fidelity rule as the separate polished-response archive reference: the copy block carries the SAME content as the full note already given, reorganized into fields — never a shortened digest of it. `Title` and `Tier` are the only fields not literally quoted from the four numbered sections in this workflow; `TOEFL Domain` is the Semantic Anchoring classification stated verbatim, `Tier` is the Density Score/Tier line stated verbatim, and everything else must match the corresponding section exactly — all in English, regardless of the source language.
 
 The [`semantic-consolidation-buffer/`](../semantic-consolidation-buffer/) automation (unlike `polished-5-5-responses/`) has a single `incoming/` folder, not one per task type — every episode uses this same schema regardless of domain or source language, so there is no folder to choose.
-
