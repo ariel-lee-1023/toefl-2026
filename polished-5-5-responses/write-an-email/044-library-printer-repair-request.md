@@ -1,5 +1,4 @@
-## Title
-Library Printer Repair Request
+# Library Printer Repair Request
 
 ## Prompt
 You are a student employee at the university library and have discovered that the printer keeps malfunctioning. You need to request assistance from the IT department to resolve the problem.
