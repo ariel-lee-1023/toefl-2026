@@ -1,7 +1,6 @@
-## Title
-Character Development Versus Plot
+# Character Development Versus Plot
 
-## Prompt
+## Prompt (including both student posts)
 Your professor is teaching a class on literature. Write a post responding to the professor’s question.
 
 In your response, you should do the following.
@@ -35,4 +34,4 @@ The hypothetical student provides relevant and specific elaboration. A history o
 
 The counterfactual “Without that earlier characterization” shows why the example supports the comparative claim: the same intervention would carry less meaning if the reader did not understand the person making it. The final sentences acknowledge that plot and character interact while maintaining a clear judgment that characterization gives events significance beyond suspense.
 
-The response follows a coherent progression from position to mechanism, example, interpretation, and conclusion. Structures including the opening causal clause, the concession beginning “Although,” relative clauses describing the student and classmate, and the final “not only ... but also” construction serve precise meanings. Vocabulary such as “emotional weight,” “risk expulsion,” “personal growth,” and “immediate suspense” is idiomatic and appropriate. Grammar, spelling, and punctuation are consistently controlled, satisfying the ETS top-band expectations for elaboration, syntactic variety, and language accuracy.
+The response follows a coherent progression from position to mechanism, example, interpretation, and conclusion. Structures including the opening causal clause, the concession beginning “Although,” relative clauses describing the student and classmate, and the final “not only... but also” construction serve precise meanings. Vocabulary such as “emotional weight,” “risk expulsion,” “personal growth,” and “immediate suspense” is idiomatic and appropriate. Grammar, spelling, and punctuation are consistently controlled, satisfying the ETS top-band expectations for elaboration, syntactic variety, and language accuracy.
