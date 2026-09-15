@@ -1,7 +1,6 @@
-## Title
-Character Development and Plot
+# Character Development Plot
 
-## Prompt
+## Prompt (including both student posts)
 Your professor is teaching a class on literature. Write a post responding to the professor’s question.
 
 In your response, you should do the following:
