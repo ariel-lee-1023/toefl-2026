@@ -6,14 +6,13 @@ The default learning loop is one short task, your attempt, feedback, then a vari
 
 ## Install
 
-Clone into a skills root your agent reads (Claude Code shown):
+Clone the repository locally:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/toefl-2026.git \
-  ~/.claude/skills/toefl-2026
+git clone https://github.com/ariel-lee-1023/toefl-2026.git
 ```
 
-Other roots: `~/.copilot/skills/`, `~/.agents/skills/`, `.claude/skills/`, `.agents/skills/`.
+If your assistant supports local skills, place the cloned folder in its configured skills directory. Otherwise, add [SKILL.md](SKILL.md) as the assistant's instructions and make the relevant `references/` files available as supporting material. Setup and file access depend on the tool you use.
 
 ## What you can practise
 
@@ -118,9 +117,9 @@ These automations organize already prepared content; they do not call an AI to s
 
 [Practice records](practice-records/README.md) capture a requested exercise's material provenance, familiarity, assistance, actual attempt, feedback, and next target. Notes and timing are recorded only when available. They are lightweight and opt-in, saved locally under `exports/practice-records/`, and do not enter either archive workflow.
 
-## Retrieval hosts
+## Assistants with reference retrieval
 
-For a Gem, NotebookLM notebook, or ChatGPT Project, add the router rules to the host's instructions as well as uploading references. Retrieval can omit important routing context. A compact instruction block:
+For an assistant that retrieves information from uploaded files, add the router rules to its persistent instructions as well as uploading references. Retrieval can omit important routing context. A compact instruction block:
 
 ```text
 Route by the learner's activity. Explicit comprehension, listening notes, new
