@@ -1,7 +1,6 @@
-## Title
-Universal Basic Income
+# Universal Basic Income
 
-## Prompt
+## Prompt (including both student posts)
 Your professor is teaching a class on economics. Write a post responding to the professor’s question.
 
 In your response, you should do the following:
