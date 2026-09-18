@@ -1,5 +1,4 @@
-## Title
-Baking Cookies
+# Baking Cookies
 
 ## Prompt
 1. Begin by mixing the butter and sugar.
@@ -35,13 +34,13 @@ No learner recording or response transcript was supplied. Accuracy, intelligibil
 
 | # | Score | What I lost | Cause category |
 |---|---|---|---|
-| 1 | ... | ... | ... |
-| 2 | ... | ... | ... |
-| 3 | ... | ... | ... |
-| 4 | ... | ... | ... |
-| 5 | ... | ... | ... |
-| 6 | ... | ... | ... |
-| 7 | ... | ... | ... |
+| 1 |... |... |... |
+| 2 |... |... |... |
+| 3 |... |... |... |
+| 4 |... |... |... |
+| 5 |... |... |... |
+| 6 |... |... |... |
+| 7 |... |... |... |
 
-- Set score: .../5
+- Set score:.../5
 - Error tally: function word ×... · word ending ×... · blurred content word ×... · truncation ×... · rhythm ×...

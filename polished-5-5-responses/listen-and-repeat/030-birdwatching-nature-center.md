@@ -1,5 +1,4 @@
-## Title
-Birdwatching Nature Center
+# Birdwatching Nature Center
 
 ## Prompt
 Scenario: You are volunteering at a community nature center near campus. The leader is training you to help beginners learn the basics of birdwatching. Listen to the leader and repeat what the leader says. Repeat only once.
@@ -37,13 +36,13 @@ No learner recording or response transcript was supplied. Accuracy, intelligibil
 
 | # | Score | What I lost | Cause category |
 |---|---|---|---|
-| 1 | ... | ... | ... |
-| 2 | ... | ... | ... |
-| 3 | ... | ... | ... |
-| 4 | ... | ... | ... |
-| 5 | ... | ... | ... |
-| 6 | ... | ... | ... |
-| 7 | ... | ... | ... |
+| 1 |... |... |... |
+| 2 |... |... |... |
+| 3 |... |... |... |
+| 4 |... |... |... |
+| 5 |... |... |... |
+| 6 |... |... |... |
+| 7 |... |... |... |
 
-- Set score: .../5
+- Set score:.../5
 - Error tally: function word ×... · word ending ×... · blurred content word ×... · truncation ×... · rhythm ×...

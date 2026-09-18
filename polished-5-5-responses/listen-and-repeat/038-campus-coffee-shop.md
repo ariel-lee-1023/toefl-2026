@@ -1,5 +1,4 @@
-## Title
-Campus Coffee Shop
+# Campus Coffee Shop
 
 ## Prompt
 Scenario: You are being trained to assist in a campus coffee shop. Your supervisor will teach you how to explain key features of the coffee shop to customers. Listen to your supervisor and repeat what the supervisor says. Repeat only once.
@@ -37,13 +36,13 @@ No learner recording or response transcript was supplied. Accuracy, intelligibil
 
 | # | Score | What I lost | Cause category |
 |---|---|---|---|
-| 1 | ... | ... | ... |
-| 2 | ... | ... | ... |
-| 3 | ... | ... | ... |
-| 4 | ... | ... | ... |
-| 5 | ... | ... | ... |
-| 6 | ... | ... | ... |
-| 7 | ... | ... | ... |
+| 1 |... |... |... |
+| 2 |... |... |... |
+| 3 |... |... |... |
+| 4 |... |... |... |
+| 5 |... |... |... |
+| 6 |... |... |... |
+| 7 |... |... |... |
 
-- Set score: .../5
+- Set score:.../5
 - Error tally: function word ×... · word ending ×... · blurred content word ×... · truncation ×... · rhythm ×...

@@ -1,5 +1,4 @@
-## Title
-University Bookstore Assistance
+# University Bookstore Assistance
 
 ## Prompt
 Scenario: You are working at your university's bookstore. Your supervisor is training you to assist customers in the bookstore. Listen to the supervisor and repeat what the supervisor says. Repeat only once.
@@ -37,13 +36,13 @@ No learner recording or response transcript was supplied. Accuracy, intelligibil
 
 | # | Score | What I lost | Cause category |
 |---|---|---|---|
-| 1 | ... | ... | ... |
-| 2 | ... | ... | ... |
-| 3 | ... | ... | ... |
-| 4 | ... | ... | ... |
-| 5 | ... | ... | ... |
-| 6 | ... | ... | ... |
-| 7 | ... | ... | ... |
+| 1 |... |... |... |
+| 2 |... |... |... |
+| 3 |... |... |... |
+| 4 |... |... |... |
+| 5 |... |... |... |
+| 6 |... |... |... |
+| 7 |... |... |... |
 
-- Set score: .../5
+- Set score:.../5
 - Error tally: function word ×... · word ending ×... · blurred content word ×... · truncation ×... · rhythm ×...
