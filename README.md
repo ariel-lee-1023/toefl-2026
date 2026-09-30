@@ -74,7 +74,7 @@ See the [fixtures, commands, and behavioral evidence](evals/build-a-sentence/REA
 Clone the repository locally:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/toefl-2026-writing-speaking.git
+git clone https://github.com/ariel-lee-1023/toefl-2026.git
 ```
 
 If your assistant supports local skills, place the cloned folder in its configured skills directory. Otherwise, add [SKILL.md](SKILL.md) as the assistant's instructions and make the relevant `references/` files available as supporting material. Setup and file access depend on the tool you use.
